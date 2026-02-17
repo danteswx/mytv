@@ -1,0 +1,28 @@
+name: Update fmapp
+on:
+  schedule:
+    - cron:  "55 22 * * *"
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout My Repo's fmapp branch
+      uses: actions/checkout@v4
+      with:
+        ref: fmapp 
+
+    - name: Download JSON from Remote Main Branch and Process
+      run: |
+        curl -s https://raw.githubusercontent.com/lystv/fmapp/app/yysd.json -o yysd.json
+        sed -i 's/mirror.ghproxy.com/wget.la/g' yysd.json
+
+    - name: Commit and Push changes to My Repo's fmapp branch
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add yysd.json
+        git commit -m "1" || echo "No changes to commit"
+        git push origin fmapp
