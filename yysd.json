@@ -44,7 +44,7 @@
                 "icon": "https://wget.la/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
                 "version": "FM-5.1.9"
             }
-        
+        ]
     },
     {
         "name": "正式版",
@@ -133,7 +133,7 @@
                 "icon": "https://wget.la/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
                 "version": "FM-5.1.9"
             }
-        
+        ]
     },
     {
         "name": "內測版",
@@ -174,7 +174,7 @@
                 "icon": "https://wget.la/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
                 "version": "OK-2.8.5"
             } 
-        
+        ]
     },
     {
         "name": "4.x版",
@@ -185,11 +185,9 @@
                 "icon": "https://wget.la/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
                 "version": "OK-2.5.0"
             }
-        
+        ]
     } 
-
-
-,
+ ,
      {
         "name": "酷9",
         "list": [
