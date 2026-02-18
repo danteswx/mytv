@@ -15,18 +15,18 @@ jobs:
 
       - name: Download JSON and Process
         run: |
-          # 1. 下载原始文件
+          # 1. 下载文件
           curl -s https://raw.githubusercontent.com/lystv/fmapp/app/yysd.json -o yysd.json
           
-          # 2. 执行原有的域名替换
+          # 2. 替换原有域名
           sed -i 's/mirror.ghproxy.com/wget.la/g' yysd.json
 
-          # 3. 去掉文件末尾的 ']' (为追加内容做准备)
-          # 注意：这将匹配文件末尾的 ] 并将其删除
-          sed -i 's/]\s*$//' yysd.json
+          # 3. 关键修改：移除文件末尾的 ']'
+          # 使用 -z 选项让 sed 跨行匹配，regex ']\s*$' 会匹配最后的 ] 以及它之后所有的空白/换行
+          # 将其替换为一个空格，为追加内容做准备
+          sed -i -z 's/]\s*$/ /' yysd.json
 
-          # 4. 追加你提供的新内容，并在最后补上闭合的 ]
-          # 使用 cat <<EOF >> 的方式可以方便地写入多行内容
+          # 4. 追加新内容（注意开头有个逗号）
           cat <<EOF >> yysd.json
           ,
                {
@@ -43,11 +43,10 @@ jobs:
           ]
           EOF
 
-      - name: Commit and Push changes to My Repo's fmapp branch
+      - name: Commit and Push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add yysd.json
-          # 如果文件没有变化则跳过 commit，防止报错
-          git commit -m "update yysd.json with ku9" || echo "No changes to commit"
+          git commit -m "Update yysd.json with Ku9" || echo "No changes to commit"
           git push origin cable
