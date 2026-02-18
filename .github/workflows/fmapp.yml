@@ -1,28 +1,53 @@
 name: Update fmapp
 on:
   schedule:
-    - cron:  "55 22 * * *"
+    - cron: "55 22 * * *"
   workflow_dispatch: # 允许手动触发
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout My Repo's fmapp branch
-      uses: actions/checkout@v4
-      with:
-        ref: cable 
+      - name: Checkout My Repo's fmapp branch
+        uses: actions/checkout@v4
+        with:
+          ref: cable
 
-    - name: Download JSON from Remote Main Branch and Process
-      run: |
-        curl -s https://raw.githubusercontent.com/lystv/fmapp/app/yysd.json -o yysd.json
-        sed -i 's/mirror.ghproxy.com/wget.la/g' yysd.json
+      - name: Download JSON and Process
+        run: |
+          # 1. 下载原始文件
+          curl -s https://raw.githubusercontent.com/lystv/fmapp/app/yysd.json -o yysd.json
+          
+          # 2. 执行原有的域名替换
+          sed -i 's/mirror.ghproxy.com/wget.la/g' yysd.json
 
-    - name: Commit and Push changes to My Repo's fmapp branch
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add yysd.json
-        git commit -m "1" || echo "No changes to commit"
-        git push origin cable
+          # 3. 去掉文件末尾的 ']' (为追加内容做准备)
+          # 注意：这将匹配文件末尾的 ] 并将其删除
+          sed -i 's/]\s*$//' yysd.json
+
+          # 4. 追加你提供的新内容，并在最后补上闭合的 ]
+          # 使用 cat <<EOF >> 的方式可以方便地写入多行内容
+          cat <<EOF >> yysd.json
+          ,
+               {
+                  "name": "酷9",
+                  "list": [
+                      {
+                          "name": "酷9",
+                          "url": "https://wget.la/https://raw.githubusercontent.com/danteswx/mytv/39bde9c18a6d50685534f6fbb13903014df51223/Ku9-20260217.apk",
+                          "icon": "https://wget.la/https://github.com/danteswx/mytv/blob/cable/ku9.png?raw=true",
+                          "version": "ku9-1.7.7.6-2_20260217-1142"
+                      }
+                  ]
+              }
+          ]
+          EOF
+
+      - name: Commit and Push changes to My Repo's fmapp branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add yysd.json
+          # 如果文件没有变化则跳过 commit，防止报错
+          git commit -m "update yysd.json with ku9" || echo "No changes to commit"
+          git push origin cable
