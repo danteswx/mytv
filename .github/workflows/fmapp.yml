@@ -19,7 +19,7 @@ jobs:
           curl -s https://raw.githubusercontent.com/lystv/fmapp/app/yysd.json -o yysd.json
           
           # 2. 替换原有域名
-          sed -i 's/mirror.ghproxy.com/wget.la/g' yysd.json
+          sed -i 's/mirror.ghproxy.com/g.blfrp.cn/g' yysd.json
 
           # 3. 关键修改：移除文件末尾的 ']'
           # 使用 -z 选项让 sed 跨行匹配，regex ']\s*$' 会匹配最后的 ] 以及它之后所有的空白/换行
@@ -34,8 +34,8 @@ jobs:
                   "list": [
                       {
                           "name": "酷9",
-                          "url": "https://wget.la/https://raw.githubusercontent.com/danteswx/mytv/39bde9c18a6d50685534f6fbb13903014df51223/Ku9-20260217.apk",
-                          "icon": "https://wget.la/https://github.com/danteswx/mytv/blob/cable/ku9.png?raw=true",
+                          "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/danteswx/mytv/39bde9c18a6d50685534f6fbb13903014df51223/Ku9-20260217.apk",
+                          "icon": "https://g.blfrp.cn/https://github.com/danteswx/mytv/blob/cable/ku9.png?raw=true",
                           "version": "ku9-1.7.7.6-2_20260217-1142"
                       }
                   ]
