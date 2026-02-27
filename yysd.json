@@ -1,192 +1,192 @@
 [
-    {
-        "name": "推薦",
-        "list": [
-            {
-                "name": "手機-32",
-                "url": "https://g.blfrp.cn/https://github.com/lystv/fmapp/releases/download/3.7.0/mobile-armeabi_v7a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-3.7.0"
-            },
-            {
-                "name": "電視-32",
-                "url": "https://g.blfrp.cn/https://github.com/lystv/fmapp/releases/download/3.7.0/leanback-armeabi_v7a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-3.7.0"
-            },
-            {
-                "name": "4.x電視",
-                "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/93fd99c68e7bddc4b903a2fe12fdbd372630610b/apk/kitkat/leanback.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-2.5.0"
-            },
-            {
-                "name": "手機pro",
-                "url": "https://g.blfrp.cn/https://github.com/lystv/fmapp/releases/download/5.0.1-pro/mobile-pro.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-5.0.1-pro"
-            },
-            {
-                "name": "電視pro",
-                "url": "https://g.blfrp.cn/https://github.com/lystv/fmapp/releases/download/5.0.1-pro/leanback-pro.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-5.0.1-pro"
-            },
-            {
-                "name": "手機-32",
-                "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/fongmi/release/519fc850dfa5fc78d8b70dffd587145767aa5e7d/apk/mobile-armeabi_v7a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
-                "version": "FM-5.2.1"
-            },
-            {
-                "name": "電視-32",
-                "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/fongmi/release/519fc850dfa5fc78d8b70dffd587145767aa5e7d/apk/leanback-armeabi_v7a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
-                "version": "FM-5.2.1"
-            }
-        ]
-    },
-    {
-        "name": "正式版",
-        "list": [
-            {
-                "name": "電視-32",
-                "url": "https://g.blfrp.cn/https://github.com/lystv/fmapp/releases/download/3.7.0/leanback-armeabi_v7a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-3.7.0"
-            },
-            {
-                "name": "電視-64",
-                "url": "https://g.blfrp.cn/https://github.com/lystv/fmapp/releases/download/3.7.0/leanback-arm64_v8a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-3.7.0"
-            },
-            {
-                "name": "海信電視专版",
-                "url": "https://g.blfrp.cn/https://github.com/lystv/fmapp/releases/download/3.7.0/hisense.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-3.7.0"
-            },
-            {
-                "name": "電視x5离线版",
-                "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/b37f7ba518bc060802a19720c0212c8a06e50b9e/apk/release/电视版-X5离线.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-3.2.6"
-            },
-            {
-                "name": "手機-32",
-                "url": "https://g.blfrp.cn/https://github.com/lystv/fmapp/releases/download/3.7.0/mobile-armeabi_v7a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-3.7.0"
-            },
-            {
-                "name": "手機-64",
-                "url": "https://g.blfrp.cn/https://github.com/lystv/fmapp/releases/download/3.7.0/mobile-arm64_v8a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-3.7.0"
-            },
-            {
-                "name": "手機pro",
-                "url": "https://g.blfrp.cn/https://github.com/lystv/fmapp/releases/download/5.0.1-pro/mobile-pro.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-5.0.1-pro"
-            },
-            {
-                "name": "手機pro-emu",
-                "url": "https://g.blfrp.cn/https://github.com/lystv/fmapp/releases/download/5.0.1-pro/mobile-pro.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-5.0.1-pro"
-            },
-            {
-                "name": "電視pro",
-                "url": "https://g.blfrp.cn/https://github.com/lystv/fmapp/releases/download/5.0.1-pro/leanback-pro.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-5.0.1-pro"
-            },
-            {
-                "name": "電視pro-v8a",
-                "url": "https://g.blfrp.cn/https://github.com/lystv/fmapp/releases/download/5.0.1-pro/leanback-pro-v8a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-5.0.1-pro"
-            },
-            {
-                "name": "電視-32",
-                "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/fongmi/release/519fc850dfa5fc78d8b70dffd587145767aa5e7d/apk/leanback-armeabi_v7a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
-                "version": "FM-5.2.1"
-            },
-            {
-                "name": "電視-64",
-                "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/fongmi/release/519fc850dfa5fc78d8b70dffd587145767aa5e7d/apk/leanback-arm64_v8a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
-                "version": "FM-5.2.1"
-            }, 
-            {
-                "name": "手機-32",
-                "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/fongmi/release/519fc850dfa5fc78d8b70dffd587145767aa5e7d/apk/mobile-armeabi_v7a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
-                "version": "FM-5.2.1"
-            },
-            {
-                "name": "手機-64",
-                "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/fongmi/release/519fc850dfa5fc78d8b70dffd587145767aa5e7d/apk/mobile-arm64_v8a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
-                "version": "FM-5.2.1"
-            }
-        ]
-    },
-    {
-        "name": "內測版",
-        "list": [ 
-            {
-                "name": "電視-32",
-                "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/46fe8f89934de86af3f4a76723f63ee3cbd4254e/apk/dev/leanback-armeabi_v7a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-2.8.5"
-            },
-            {
-                "name": "電視-64",
-                "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/46fe8f89934de86af3f4a76723f63ee3cbd4254e/apk/dev/leanback-arm64_v8a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-2.8.5"
-            },
-            {
-                "name": "海信電視专版",
-                "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/46fe8f89934de86af3f4a76723f63ee3cbd4254e/apk/dev/海信专版.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-2.8.5"
-            },
-            {
-                "name": "電視x5离线版",
-                "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/46fe8f89934de86af3f4a76723f63ee3cbd4254e/apk/dev/电视版-X5离线.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-2.8.5"
-            },
-            {
-                "name": "手機-32",
-                "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/46fe8f89934de86af3f4a76723f63ee3cbd4254e/apk/dev/mobile-armeabi_v7a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-2.8.5"
-            },
-            {
-                "name": "手機-64",
-                "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/46fe8f89934de86af3f4a76723f63ee3cbd4254e/apk/dev/mobile-arm64_v8a.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-2.8.5"
-            } 
-        ]
-    },
-    {
-        "name": "4.x版",
-        "list": [
-            {
-                "name": "電視",
-                "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/93fd99c68e7bddc4b903a2fe12fdbd372630610b/apk/kitkat/leanback.apk",
-                "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-                "version": "OK-2.5.0"
-            }
-        ]
-    } 
+  {
+    "name": "推薦版",
+    "list": [
+      {
+        "name": "手機-32",
+        "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/mobile-armeabi_v7a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-3.7.2"
+      },
+      {
+        "name": "電視-32",
+        "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-armeabi_v7a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-3.7.2"
+      },
+      {
+        "name": "安卓5-TV32",
+        "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-ad5.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-3.7.2"
+      },
+      {
+        "name": "海信電視专版",
+        "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/hisense.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-3.7.2"
+      },
+      {
+        "name": "手機-32",
+        "url": "https://raw.githubusercontent.com/fongmi/release/460e3f3638a3593445440a886c9db54656b558be/apk/mobile-armeabi_v7a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+        "version": "FM-5.2.3"
+      },
+      {
+        "name": "電視-32",
+        "url": "https://raw.githubusercontent.com/fongmi/release/460e3f3638a3593445440a886c9db54656b558be/apk/leanback-armeabi_v7a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+        "version": "FM-5.2.3"
+      }
+    ]
+  },
+  {
+    "name": "正式版",
+    "list": [
+      {
+        "name": "手機-32",
+        "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/mobile-armeabi_v7a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-3.7.2"
+      },
+      {
+        "name": "手機-64",
+        "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/mobile-arm64_v8a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-3.7.2"
+      },
+      {
+        "name": "電視-32",
+        "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-armeabi_v7a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-3.7.2"
+      },
+      {
+        "name": "電視-64",
+        "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-arm64_v8a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-3.7.2"
+      },
+      {
+        "name": "安卓5-TV64",
+        "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-ad5-v8a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-3.7.2"
+      },
+      {
+        "name": "安卓5-TV32",
+        "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-ad5.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-3.7.2"
+      },
+      {
+        "name": "海信電視专版",
+        "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/hisense.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-3.7.2"
+      },
+      {
+        "name": "手機pro",
+        "url": "https://github.com/lystv/fmapp/releases/download/5.0.3-pro/mobile-pro.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-5.0.3-pro"
+      },
+      {
+        "name": "手機pro-emu",
+        "url": "https://github.com/lystv/fmapp/releases/download/5.0.3-pro/mobile-pro.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-5.0.3-pro"
+      },
+      {
+        "name": "電視pro",
+        "url": "https://github.com/lystv/fmapp/releases/download/5.0.3-pro/leanback-pro.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-5.0.3-pro"
+      },
+      {
+        "name": "電視-pro-64",
+        "url": "https://github.com/lystv/fmapp/releases/download/5.0.3-pro/leanback-pro-v8a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-5.0.3-pro"
+      },
+      {
+        "name": "手機-32",
+        "url": "https://raw.githubusercontent.com/fongmi/release/460e3f3638a3593445440a886c9db54656b558be/apk/mobile-armeabi_v7a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+        "version": "FM-5.2.3"
+      },
+      {
+        "name": "手機-64",
+        "url": "https://raw.githubusercontent.com/fongmi/release/460e3f3638a3593445440a886c9db54656b558be/apk/mobile-arm64_v8a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+        "version": "FM-5.2.3"
+      },
+      {
+        "name": "電視-32",
+        "url": "https://raw.githubusercontent.com/fongmi/release/460e3f3638a3593445440a886c9db54656b558be/apk/leanback-armeabi_v7a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+        "version": "FM-5.2.3"
+      },
+      {
+        "name": "電視-64",
+        "url": "https://raw.githubusercontent.com/fongmi/release/460e3f3638a3593445440a886c9db54656b558be/apk/leanback-arm64_v8a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+        "version": "FM-5.2.3"
+      }
+    ]
+  },
+  {
+    "name": "内测版",
+    "list": [
+      {
+        "name": "手機-32",
+        "url": "https://raw.githubusercontent.com/lystv/fmapp/d57df5bcdfcf34e699d76324d4b5ca8178cda689/apk/dev/mobile-armeabi_v7a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-2.8.5"
+      },
+      {
+        "name": "手機-64",
+        "url": "https://raw.githubusercontent.com/lystv/fmapp/d57df5bcdfcf34e699d76324d4b5ca8178cda689/apk/dev/mobile-arm64_v8a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-2.8.5"
+      },
+      {
+        "name": "電視-32",
+        "url": "https://raw.githubusercontent.com/lystv/fmapp/d57df5bcdfcf34e699d76324d4b5ca8178cda689/apk/dev/leanback-armeabi_v7a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-2.8.5"
+      },
+      {
+        "name": "電視-64",
+        "url": "https://raw.githubusercontent.com/lystv/fmapp/d57df5bcdfcf34e699d76324d4b5ca8178cda689/apk/dev/leanback-arm64_v8a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-2.8.5"
+      },
+      {
+        "name": "電視x5离线版",
+        "url": "https://raw.githubusercontent.com/lystv/fmapp/d57df5bcdfcf34e699d76324d4b5ca8178cda689/apk/dev/电视版-X5离线.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-2.8.5"
+      },
+      {
+        "name": "海信電視专版",
+        "url": "https://raw.githubusercontent.com/lystv/fmapp/d57df5bcdfcf34e699d76324d4b5ca8178cda689/apk/dev/海信专版.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-2.8.5"
+      }
+    ]
+  },
+  {
+    "name": "4.x版",
+    "list": [
+      {
+        "name": "電視",
+        "url": "https://raw.githubusercontent.com/lystv/fmapp/93fd99c68e7bddc4b903a2fe12fdbd372630610b/apk/kitkat/leanback.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-2.5.0"
+      }
+    ]
+  }
  ,
      {
         "name": "酷9",
