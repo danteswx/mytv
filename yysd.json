@@ -15,6 +15,12 @@
         "version": "OK-3.7.3"
       },
       {
+        "name": "安卓5-TV32",
+        "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-ad5-v8a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-3.7.2"
+      },
+      {
         "name": "海信電視专版",
         "url": "https://github.com/lystv/fmapp/releases/download/3.7.3/hisense.apk",
         "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
@@ -66,6 +72,18 @@
         "url": "https://github.com/lystv/fmapp/releases/download/3.7.3/hisense.apk",
         "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
         "version": "OK-3.7.3"
+      },
+      {
+        "name": "安卓5-TV32",
+        "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-ad5-v8a.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-3.7.2"
+      },
+      {
+        "name": "安卓5-TV64",
+        "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-ad5.apk",
+        "icon": "https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+        "version": "OK-3.7.2"
       },
       {
         "name": "手機pro",
