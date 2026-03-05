@@ -20,6 +20,8 @@ jobs:
           
           # 2. 替换原有域名
           sed -i 's/mirror.ghproxy.com/g.blfrp.cn/g' yysd.json
+          sed -i 's#\bhttps://github.com\b#https://g.blfrp.cn/https://github.com#g' yysd.json
+          sed -i 's#\bhttps://raw.githubusercontent.com\b#https://g.blfrp.cn/https://raw.githubusercontent.com#g' yysd.json
 
           # 3. 关键修改：移除文件末尾的 ']'
           # 使用 -z 选项让 sed 跨行匹配，regex ']\s*$' 会匹配最后的 ] 以及它之后所有的空白/换行
