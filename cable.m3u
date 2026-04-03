@@ -106,7 +106,7 @@ http://v6.sucun.top:3257/stream/channelid/981953812?auth=PQgplJJUrpQdu9Uk6VeO882
 http://v6.sucun.top:3257/stream/channelid/2035401912?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Shenzhen.png" tvg-id="1724238f594393ff6f998ae74b9c01d0" tvg-chno="108" group-title="WSTV",深圳卫视4K
 http://v6.sucun.top:3257/stream/channelid/253961239?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/hxjc4k.png" tvg-id="7c435aa8ba15e6104a79924d5f9d4f5b" tvg-chno="109" group-title="WSTV",欢笑剧场4K
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/hxjc4k.png" tvg-id="7c435aa8ba15e6104a79924d5f9d4f5b" tvg-chno="109" group-title="WSTV",多彩文体4K
 http://v6.sucun.top:3257/stream/channelid/677004156?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Chongqing.png" tvg-id="b7f15b63e89646ab57d24355fd0ee34c" tvg-chno="110" group-title="WSTV",重庆卫视
 http://v6.sucun.top:3257/stream/channelid/1666970039?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
@@ -174,7 +174,7 @@ http://v6.sucun.top:3257/stream/channelid/1064408453?auth=PQgplJJUrpQdu9Uk6VeO88
 http://v6.sucun.top:3257/stream/channelid/1208811210?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/shss.png" tvg-id="d0e600c775083ee564daa9a2a67d3649" tvg-chno="314" group-title="数字频道",生活时尚
 http://v6.sucun.top:3257/stream/channelid/1191241424?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/hxjchd.png" tvg-id="08ad380275d5ab2e1a3b68117f2a0df6" tvg-chno="315" group-title="数字频道",欢笑剧场
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/hxjchd.png" tvg-id="08ad380275d5ab2e1a3b68117f2a0df6" tvg-chno="315" group-title="数字频道",多彩文体
 http://v6.sucun.top:3257/stream/channelid/37268744?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/dfcj.png" tvg-id="0b08a73bb3a1e033fa6de2a8c6ad1cd2" tvg-chno="317" group-title="数字频道",东方财经
 http://v6.sucun.top:3257/stream/channelid/1000802315?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
@@ -190,8 +190,6 @@ http://v6.sucun.top:3257/stream/channelid/1309838950?auth=PQgplJJUrpQdu9Uk6VeO88
 http://v6.sucun.top:3257/stream/channelid/987205151?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/klcd.png" tvg-id="1e36552c43309fe82b9e2ed65b75ed96" tvg-chno="324" group-title="数字频道",快乐垂钓
 http://v6.sucun.top:3257/stream/channelid/743781918?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/chapd.png" tvg-id="6384cf3ccfd361f9ffaa5b31f5bd2a5b" tvg-chno="325" group-title="数字频道",茶频道
-http://v6.sucun.top:3257/stream/channelid/1020232803?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/dycj.png" tvg-id="199dd19e23faef607ffd43009936e899" tvg-chno="326" group-title="数字频道",第一财经
 http://v6.sucun.top:3257/stream/channelid/517053721?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/zgtq.png" tvg-id="77ab6913c94eecae4dd9ec94604dafb0" tvg-chno="329" group-title="数字频道",中国天气
@@ -386,7 +384,7 @@ http://v6.sucun.top:3257/stream/channelid/124662547?auth=PQgplJJUrpQdu9Uk6VeO882
 http://v6.sucun.top:3257/stream/channelid/1111844982?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Sichuan.png" tvg-id="0af20b36c80a0173ced83de5e7526bfd" tvg-chno="767" group-title="广电市县",四川卫视4K
 http://v6.sucun.top:3257/stream/channelid/906752522?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/hxjc4k.png" tvg-id="8721b8ba41899fb79a08b278da72c767" tvg-chno="768" group-title="广电市县",欢笑剧场4K
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/hxjc4k.png" tvg-id="8721b8ba41899fb79a08b278da72c767" tvg-chno="768" group-title="广电市县",多彩文体4K
 http://v6.sucun.top:3257/stream/channelid/985145735?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4K.png" tvg-id="fb07ac3fb49943c027ad2a72db38e866" tvg-chno="30" group-title="ITV",CCTV4K
 http://192.168.10.1:8800/rtp/239.49.0.82:8000
