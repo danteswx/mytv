@@ -74,17 +74,17 @@ http://v6.sucun.top:3257/stream/channelid/369685281?auth=PQgplJJUrpQdu9Uk6VeO882
 http://v6.sucun.top:3257/stream/channelid/653196726?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Jiangsu.png" tvg-id="4314812dc7811a7192283b1271678575" tvg-chno="51" group-title="CCTV本地",江苏卫视4K
 http://v6.sucun.top:3257/stream/channelid/763434051?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu5.png" tvg-id="61c1401432ca7b8323048b4f4781c21a" tvg-chno="53" group-title="CCTV本地",江苏体育
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu.png" tvg-id="61c1401432ca7b8323048b4f4781c21a" tvg-chno="53" group-title="CCTV本地",江苏体育
 http://v6.sucun.top:3257/stream/channelid/339788129?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu1.png" tvg-id="4d95e61dcca9cd1d312e4bc4521cb3ce" tvg-chno="52" group-title="CCTV本地",江苏新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu.png" tvg-id="4d95e61dcca9cd1d312e4bc4521cb3ce" tvg-chno="52" group-title="CCTV本地",江苏新闻
 http://v6.sucun.top:3257/stream/channelid/501650765?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu2.png" tvg-id="6f46a2d9275961688ab025794fe5f8ee" tvg-chno="54" group-title="CCTV本地",江苏城市
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu.png" tvg-id="6f46a2d9275961688ab025794fe5f8ee" tvg-chno="54" group-title="CCTV本地",江苏城市
 http://v6.sucun.top:3257/stream/channelid/1503807087?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
-#EXTINF:-1 tvg-logo="https://storage-r3.photofinale.com/storage/8.0/photo.aspx?photo=1052875714&size=240&m=134027254831430000&x=4E126GawUVE2DcPJgnw2fVmeusFoeHUQ" tvg-id="89459ecdf9e7a457c77aaab7426d1640" tvg-chno="55" group-title="CCTV本地",电信分屏
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu.png" tvg-id="89459ecdf9e7a457c77aaab7426d1640" tvg-chno="55" group-title="CCTV本地",电信分屏
 http://192.168.10.1:8800/rtp/239.49.8.73:8000
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu7.png" tvg-id="f06eb855b912b8840c32da7850be208c" tvg-chno="56" group-title="CCTV本地",江苏教育
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu.png" tvg-id="f06eb855b912b8840c32da7850be208c" tvg-chno="56" group-title="CCTV本地",江苏教育
 http://v6.sucun.top:3257/stream/channelid/1438150384?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu3.png" tvg-id="7b48384eccf0c5b523b2a8feab1de576" tvg-chno="57" group-title="CCTV本地",江苏综艺
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu.png" tvg-id="7b48384eccf0c5b523b2a8feab1de576" tvg-chno="57" group-title="CCTV本地",江苏综艺
 http://v6.sucun.top:3257/stream/channelid/1312311419?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shanghai1.png" tvg-id="ad4ab312b0d0682e8256a9349c1cf340" tvg-chno="61" group-title="CCTV本地",上海新闻综合
 http://v6.sucun.top:3257/stream/channelid/313739949?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
@@ -646,7 +646,7 @@ https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001690/index.m3
 https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001490/index.m3u8?streamid=9ca725ba158e786e5bc6f2bbdcc209bf&streamkey=0AGMO6LiBIxyH4EhXQA4CyyBB6GWkVdx4wZhM6J1AywT63McWrpsYW9yLXS08YubrPIfbHwZLLnp7So4ZwIBrnd0XfZRr8BbmzbuifkWu2isG4qQh6gE8sxMfPTZh3ri&token=1775939208-d56ed9c8bb67d5e7-0-2a1d1f2081da3c539979b1c938effb5f
 
 #EXTINF:-1 tvg-logo="https://americanbazaaronline.com/wp-content/uploads/2025/10/0521447b-27ec-4aeb-9243-925d9b7552c8.png" tvg-id=" " tvg-chno=" " group-title="体育",AppleTV F1
-http://89.187.179.148:826/anto.j/c9yJDcXyPe/119317
+http://iptv.watchhd.to:5050/YannB/7krzj7gqFiel/475271
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/bbc-uhd-uk.png" tvg-id=" " tvg-chno=" " group-title="体育",BBC Stream 41 UHD
 https://ve-uhd-push-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:uk_bbc_stream_041/iptv_uhd_v1.mpd
@@ -685,6 +685,8 @@ https://g002-sle-us-cmaf-prd-ak.cdn.peacocktv.com/v~a-0-0_e~1781498102_s~ca1182b
 http://doubleclicktv.live/Lana15/tjLUeQxVL4LE/746772
 #EXTINF:-1 tvg-logo="https://americanbazaaronline.com/wp-content/uploads/2025/10/0521447b-27ec-4aeb-9243-925d9b7552c8.png" tvg-id=" " tvg-chno=" " group-title="体育",AppleTV F1备2
 http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1076470
+#EXTINF:-1 tvg-logo="https://americanbazaaronline.com/wp-content/uploads/2025/10/0521447b-27ec-4aeb-9243-925d9b7552c8.png" tvg-id=" " tvg-chno=" " group-title="体育",AppleTV F1备3
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/119317
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/bbc-uhd-uk.png" tvg-id=" " tvg-chno=" " group-title="体育",BBC Stream 42 UHD
 https://ve-uhd-push-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:uk_bbc_stream_042/iptv_uhd_v1.mpd
