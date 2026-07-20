@@ -390,7 +390,7 @@ http://192.168.10.1:8800/rtp/239.49.8.19:9614
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV2.png" tvg-id="13a45e88200db2d129f087fa0cb7da5a" tvg-chno="32" group-title="ITV",CCTV2
 http://192.168.10.1:8800/rtp/239.49.8.50:9802
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV3.png" tvg-id="0b55ae4d4d403048a25a63da24ea2033" tvg-chno="33" group-title="ITV",CCTV3
-http://192.168.10.1:8800/rtp/239.49.0.28:8000
+http://192.168.10.1:8800/rtp/239.49.8.74:8000
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4.png" tvg-id="556043f9e6d0ef990ea6819297c789c8" tvg-chno="34" group-title="ITV",CCTV4
 http://192.168.10.1:8800/rtp/239.49.8.51:9806
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5.png" tvg-id="56132197d1216ead5fdc96d7b0638c70" tvg-chno="35" group-title="ITV",CCTV5
@@ -402,11 +402,11 @@ http://192.168.10.1:8800/rtp/239.49.8.18:9610
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV16.png" tvg-id="d8a7254065e8cedadca63ce7e57d40a8" tvg-chno="37" group-title="ITV",CCTV164K
 http://192.168.10.1:8800/rtp/239.49.0.109:8000 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV6.png" tvg-id="e31f3878c650efd69221a2abe91ccbaf" tvg-chno="38" group-title="ITV",CCTV6
-http://192.168.10.1:8800/rtp/239.49.0.73:8000
+http://192.168.10.1:8800/rtp/239.49.8.76:8000
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV7.png" tvg-id="17e0f960432f0f09da92ab78c532be0d" tvg-chno="39" group-title="ITV",CCTV7
 http://192.168.10.1:8800/rtp/239.49.0.126:8000
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV8.png" tvg-id="0624d8152b44b94e831557942fdcfd6d" tvg-chno="40" group-title="ITV",CCTV8
-http://192.168.10.1:8800/rtp/239.49.0.79:8000
+http://192.168.10.1:8800/rtp/239.49.8.77:8000
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV9.png" tvg-id="9451a35ec23360d8fff5a244776bcffe" tvg-chno="41" group-title="ITV",CCTV9
 http://192.168.10.1:8800/rtp/239.49.8.53:9814
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV10.png" tvg-id="396ac0749047d6cb4d1e355dc9496d27" tvg-chno="42" group-title="ITV",CCTV10
@@ -620,67 +620,9 @@ http://192.168.10.1:8800/rtp/239.49.8.151:6000
 http://192.168.10.1:8800/rtp/239.49.8.63:9354
 #EXTINF:-1 tvg-logo="https://storage-r3.photofinale.com/storage/8.0/photo.aspx?photo=1052875714&size=240&m=134027254831430000&x=4E126GawUVE2DcPJgnw2fVmeusFoeHUQ" group-title="ITV",镇江教育民生
 http://192.168.10.1:8800/rtp/239.49.1.73:8000
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV16.png" tvg-id="d8a7254065e8cedadca63ce7e57d40a8" tvg-chno="37" group-title="ITV",CCTV164K
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001258/index.m3u8?streamid=a78e16d1a56172e5525dedde279787a3&streamkey=070kmnWlSO6tVxvh6JyoORGIRdEtU2N6uMhBr52XFXMlpDP5cJR3WbAE4XDUyMtM85fygRhPAwq9wyn0AD7vg5QKiMGxk82vdtaBG0RYT7p2mBDXWyty&token=1775753992-d3736074ec706d13-0-d4be0b2d62639f66eea98eb8ecb876a6
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4K.png" tvg-id="fb07ac3fb49943c027ad2a72db38e866" tvg-chno="30" group-title="ITV",CCTV4K
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001451/index.m3u8?streamid=69b8ad870d6e6b638349a2eb5d3c6e98&streamkey=0PV1gjFJAoweF3LBEa3Bs0tDJJ820W4wW1ZFaj9mvIJCTOb7YMJjyNipqSJ5XRwGMieXBE8k0nEcmgeD1GaGAG2QdDltcdT65Yz2RRyKTd82wMqT6&token=1775754026-64bf526cb923c04a-0-cf56d9188e3b064b963ed02898bf719d
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Dongfang.png" tvg-id="d39ac1c8b527ffb7474e4614b47f1807" tvg-chno="100" group-title="ITV",东方卫视4K
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001641/index.m3u8?streamid=b8c707e2ca95b85511f6c50c9638128b&streamkey=02U7MIyTadx5OTXNJEjFJmQmUn4bp0PhoxMJfhTAID0gbSqfQlA0VQEvrm6xQHFNpKIMax9c7MaZy1Lt63okLjZgsFpFdGAsmvKF3lkRczJ0ixR1wD7yZQ7H2ACWtAy&token=1775753702-3bcbeaa16096b227-0-eb74a70d3a58823742daf5dc5540bf53
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Jiangsu.png" tvg-id="70400df4d3c0c1223f86190974d6d8c2" tvg-chno="101" group-title="ITV",江苏卫视4K
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001700/index.m3u8?streamid=375dbc290331f86f70689c85cd16e1eb&streamkey=0bKBhLQXZpbdLfLhoAXuztnCDfMXdd4n07vg4pph65xvYWlCuc14sVFHPUrksCLNrcfjZ3zgavKeagiTWWC0n98ZVoRZHOQvtrgf2tICTK21H0fIUPAz8AGrGs3od&token=1775753773-d448db8069e56147-0-aefb335c34f6760dc7eee7e141148fe9
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Hunan.png" tvg-id="2f5332fee902aee64dbec8826d07ef68" tvg-chno="102" group-title="ITV",湖南卫视4K
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001710/index.m3u8?streamid=1d2cff60e497ead8198445a199d19583&streamkey=02BjlnRKVk4w1OvRhs9gjYN8D7sy318Y48hqzq9Dk6yaqnigFWeJpjR6zUrHGZh3m4FBMHRSBFfR1q7iX54dkvL5GLj3orlv5RnPKfGfcJZlpHhbv0636oNhmE2&token=1775753606-591a13b36d4b0115-0-df68fe8117601a06ca674b46729f8b88
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Zhejiang.png" tvg-id="0f936bb168aa28e0c0f71a89d64ad739" tvg-chno="103" group-title="ITV",浙江卫视4K 
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001720/index.m3u8?streamid=a5b6e60170ee8c69290def1c2fe00cc8&streamkey=02U7MIyTadx5OTjF56kHdKY3UZqMWfthT5Igq2hTphpRVq8kfjvVI9IxgmuhZreNNzSzXOlbyULSgLF9C1ViY6cXKhd47RRAcii4FKVhtdUbTRCeWx1jpzHYogA3FIr&token=1775753674-abd8233bbfe45ffb-0-648e070f12df7f9a0a0bb8578257c4f9
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Beijing.png" tvg-id="d7ee6cb4a9356af6cb245865d2411474" tvg-chno="104" group-title="ITV",北京卫视4K
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001500/index.m3u8?streamid=20915ffd9b2848bf3604dfea93e5f344&streamkey=0bKBhLQXZpbdLg0IeEcP2ZWPg1LTpAxB7Ns2hHCcgm7Hn9QOXx5mdzLkAhJKIoLyZdrKRK0b96Ukb7NWPMk8v25CQ52qBH9Bj4wiDnbyCgkgvAET5TyGUz5ZsSJWA&token=1775753726-024ff669b48c4157-0-8e77105f63898493d3c467122bd6c61b
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Shandong.png" tvg-id="a1210e90a42d76d3439a04035c2ada76" tvg-chno="105" group-title="ITV",山东卫视4K
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001582/index.m3u8?streamid=94f01afe37551c1ea2aa8e32b1d80c9e&streamkey=02U7MIyTadx5OTcKlSyxdK4qTKlpSvCTUPE2zgcJdEsqHA2O3f13CoJjAfzz3d14J4OypqShJU0kfbYNPAHbBZAS2bXNyeerV9kJJI3MN0k50CjE6gCJwN1kvRxvyYQ&token=1775753750-acc2de38014efdf9-0-dd10031ed1bb5507520703b21b0a8ea1
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Guangdong.png" tvg-id="b8c451f9cff8a317d60396c316513045" tvg-chno="107" group-title="ITV",广东卫视4K
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001540/index.m3u8?streamid=33aeafbb59f2bcb1877c3a8229c0135b&streamkey=0AGMO6LiBIxyH4UUBGZSecN0VLptakvTRcCBdKPsgZ5LvjIJtZ6lVmakn2xtYKNlvaZmadVnIW0Ur7nROOy5lbmQHqDT5XsDIAlz3aket1LK13kwaGDOHJf9U7zQSS6b&token=1775753804-a378e51446e90f3d-0-831fa09b2b3eafcffbd9550a9e04cf4d
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Shenzhen.png" tvg-id="1724238f594393ff6f998ae74b9c01d0" tvg-chno="108" group-title="ITV",深圳卫视4K
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001521/index.m3u8?streamid=2af9bbae55f64f373a94440b8bb0a0bd&streamkey=02U7MIyTadx5OTup7GZ3iSHAopd9liOmB72zroTGRG1Jp8vSozGwEQmJuI7IuQmHiIeLm8w2myHRsiOBiLaXV3LghOO5w2e0q0kHQpwDw3H4zpbcWSkedAr4dCeJHEJ&token=1775753828-0fcf36ad56880609-0-56827b1584e31c551b4ec6d3710aa355
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Sichuan.png" tvg-id="146d87ba08d0de06886fb9685bbb8af7" tvg-chno="106" group-title="ITV",四川卫视4K
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001690/index.m3u8?streamid=401bf692a1a8b91298f26077d53316d6&streamkey=0bKBhLQXZpbdLfnJtHeIv3eieuGyrEEeNqyvzRCSRSCqs193VuUbmVUE5aodop0npzGwC8hbmN0F0NY5vcmjAg84IHS5WVRV6qWOjmQZVbbjTbV3HqPCDaExG27zC&token=1775753857-d81f3851a1720bc1-0-e40ae8788e6f2d25c955a6a331b76a83
-#EXTINF:-1 tvg-logo="https://storage-r3.photofinale.com/storage/8.0/photo.aspx?photo=1103084976&size=240&m=134200856033376314&x=Gs4xlBkOcOi5YbcwbW8PPc6d6KG7b9Db" tvg-id="7c435aa8ba15e6104a79924d5f9d4f5b" tvg-chno="109" group-title="ITV",多彩文体4K
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001490/index.m3u8?streamid=9ca725ba158e786e5bc6f2bbdcc209bf&streamkey=0AGMO6LiBIxyH4EhXQA4CyyBB6GWkVdx4wZhM6J1AywT63McWrpsYW9yLXS08YubrPIfbHwZLLnp7So4ZwIBrnd0XfZRr8BbmzbuifkWu2isG4qQh6gE8sxMfPTZh3ri&token=1775939208-d56ed9c8bb67d5e7-0-2a1d1f2081da3c539979b1c938effb5f
 
 #EXTINF:-1 tvg-logo="https://americanbazaaronline.com/wp-content/uploads/2025/10/0521447b-27ec-4aeb-9243-925d9b7552c8.png" tvg-id=" " tvg-chno=" " group-title="体育",AppleTV F1
 http://iptv.watchhd.to:5050/YannB/7krzj7gqFiel/475271
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/bbc-uhd-uk.png" tvg-id=" " tvg-chno=" " group-title="体育",BBC Stream 41 UHD
-https://ve-uhd-push-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:uk_bbc_stream_041/iptv_uhd_v1.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/ELTA4.png" tvg-id=" " tvg-chno=" " group-title="体育",愛爾達體育1台
-https://iptv.852851.xyz/ch/a1e1f83bd470bec31e1540093438a5c7/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/ELTA4.png" tvg-id=" " tvg-chno=" " group-title="体育",愛爾達體育2台
-https://iptv.852851.xyz/ch/667741f228996f28da24100c4dc78630/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Guangdong5.png" tvg-id=" " tvg-chno=" " group-title="体育",广东体育
-https://iptv.852851.xyz/ch/980212015e30f3168d4823ea3d79f278/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://storage-r3.photofinale.com/storage/8.0/photo.aspx?photo=1117785769&size=240&m=134260664554231775&x=754KKSp43JDH2IlyO5c6f3GKeuHMf6Tl" tvg-id=" " tvg-chno="335" group-title="体育",FUSSBALL.TV 1 UHD 4K杜比
-https://iptv.852851.xyz/ch/9ad2c65b895ebcaa252259078ae5db64/master.m3u8
-
-#EXTINF:-1 tvg-id="FOX -R104K" tvg-name="FOX -R104K" tvg-logo="https://storage-r2.photofinale.com/storage/8.0/photo.aspx?photo=1117785768&size=240&m=134260664553404833&x=iD1PB2uwsmI6oexmSoJ78yV5W9BPPoRZ" group-title="体育",FOX4KR10
-https://iptv.852851.xyz/ch/96b26deae681ada09f666ed8f20b3c85/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://www.bellmedia.ca/lede/wp-content/uploads/2014/02/tv1_tsn.png" tvg-id=" " tvg-chno=" " group-title="体育",TSN4K CA
-https://iptv.852851.xyz/ch/6e6fbc3c7498ef8dd68ef39fa6ba39d3/master.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://storage-r2.photofinale.com/storage/8.0/photo.aspx?photo=1117325057&size=240&m=134259134283570000&x=1eR4if1FvlxYClsmexG13RVz3HTYyhN5" group-title="体育",美国西班牙语频道1台4K
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=002269747b1780941bdce2864b47f369:c84fec5b1f70acad9bc257afe46997ec
-https://g002-sle-us-cmaf-prd-fy.cdn.peacocktv.com/v~1-0-0_e~1781486694_f~0_g~1_s~efa963ad-bf1b-47c3-84ad-c446c6136b5d_u~2fc3181d9bb490b427441c0528378166696e6f4fdd3e61a95168ae5027fde71ce139842a0314078961820ae5a33f83f9_k~A_l~78_x~f87456484fa57aa185605345d1ebb1b3/co01/pcksle2/Content/CMAF_CTR-4s-v2/Live/channel(5021154-723012-4911424c4c4)/master.mpd
-#EXTINF:-1 tvg-logo="https://storage-r2.photofinale.com/storage/8.0/photo.aspx?photo=1117325057&size=240&m=134259134283570000&x=1eR4if1FvlxYClsmexG13RVz3HTYyhN5" group-title="体育",美国西班牙语频道2台4K
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0022045b676b06c8da4cff795a549a76:5ce3d600b8e5207e89bff3296abf69c9
-https://g002-sle-us-cmaf-prd-ak.cdn.peacocktv.com/v~a-0-0_e~1781498102_s~ca1182b3-0bca-49c2-a952-20ac53bb4b45_u~2fc3181d9bb490b427441c0528378166696e6f4fdd3e61a95168ae5027fde71ce139842a0314078961820ae5a33f83f9_l~78_x~972fa1846349cabb5483b18372fd73348954f6461dab54ab593e9c0b5beb6513/co01/pcksle2/Content/CMAF_CTR-4s-v2/Live/channel(5022523-724381-49165be125d)/master.mpd
-
-
 #EXTINF:-1 tvg-logo="https://americanbazaaronline.com/wp-content/uploads/2025/10/0521447b-27ec-4aeb-9243-925d9b7552c8.png" tvg-id=" " tvg-chno=" " group-title="体育",AppleTV F1备1
 http://doubleclicktv.live/Lana15/tjLUeQxVL4LE/746772
 #EXTINF:-1 tvg-logo="https://americanbazaaronline.com/wp-content/uploads/2025/10/0521447b-27ec-4aeb-9243-925d9b7552c8.png" tvg-id=" " tvg-chno=" " group-title="体育",AppleTV F1备2
@@ -688,31 +630,9 @@ http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1076470
 #EXTINF:-1 tvg-logo="https://americanbazaaronline.com/wp-content/uploads/2025/10/0521447b-27ec-4aeb-9243-925d9b7552c8.png" tvg-id=" " tvg-chno=" " group-title="体育",AppleTV F1备3
 http://89.187.179.148:826/anto.j/c9yJDcXyPe/119317
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/bbc-uhd-uk.png" tvg-id=" " tvg-chno=" " group-title="体育",BBC Stream 42 UHD
-https://ve-uhd-push-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:uk_bbc_stream_042/iptv_uhd_v1.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/bbc-uhd-uk.png" tvg-id=" " tvg-chno=" " group-title="体育",BBC Stream 43 UHD
-https://ve-uhd-push-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:uk_bbc_stream_043/iptv_uhd_v1.mpd  
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/bbc-uhd-uk.png" tvg-id=" " tvg-chno=" " group-title="体育",BBC Stream 44 UHD
-https://ve-uhd-push-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:uk_bbc_stream_044/iptv_uhd_v1.mpd
-
-#EXTINF:-1 tvg-id="FFOX UHD" tvg-name="FOX UHD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s28719_dark_360w_270h.png" group-title="体育",FOX UHD
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1f68713028d439ec03be07f56c1d6213:20093db6455160fffed4c394def3193d
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9crxia693u/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://storage-r2.photofinale.com/storage/8.0/photo.aspx?photo=1117325057&size=240&m=134259134283570000&x=1eR4if1FvlxYClsmexG13RVz3HTYyhN5" group-title="体育",美国西班牙语频道1台4K
-
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=002269747b1780941bdce2864b47f369:c84fec5b1f70acad9bc257afe46997ec
-https://g002-sle-us-cmaf-prd-fy.cdn.peacocktv.com/v~1-0-0_e~1781486694_f~0_g~1_s~efa963ad-bf1b-47c3-84ad-c446c6136b5d_u~2fc3181d9bb490b427441c0528378166696e6f4fdd3e61a95168ae5027fde71ce139842a0314078961820ae5a33f83f9_k~A_l~78_x~f87456484fa57aa185605345d1ebb1b3/co01/pcksle2/Content/CMAF_CTR-4s-v2/Live/channel(5021154-723012-4911424c4c4)/master.mpd
-
-#EXTINF:-1 tvg-logo="https://storage-r2.photofinale.com/storage/8.0/photo.aspx?photo=1117325057&size=240&m=134259134283570000&x=1eR4if1FvlxYClsmexG13RVz3HTYyhN5" group-title="体育",美国西班牙语频道2台4K
-
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0022045b676b06c8da4cff795a549a76:5ce3d600b8e5207e89bff3296abf69c9
-https://g002-sle-us-cmaf-prd-ak.cdn.peacocktv.com/v~a-0-0_e~1781498102_s~ca1182b3-0bca-49c2-a952-20ac53bb4b45_u~2fc3181d9bb490b427441c0528378166696e6f4fdd3e61a95168ae5027fde71ce139842a0314078961820ae5a33f83f9_l~78_x~972fa1846349cabb5483b18372fd73348954f6461dab54ab593e9c0b5beb6513/co01/pcksle2/Content/CMAF_CTR-4s-v2/Live/channel(5022523-724381-49165be125d)/master.mpd
-
-
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/NHKBSP4KHorizontal.svg/500px-NHKBSP4KHorizontal.svg.png" tvg-id=" " tvg-chno=" " group-title="体育",NHK BSP4K
+https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc_mmt
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/NHKBSP4KHorizontal.svg/500px-NHKBSP4KHorizontal.svg.png" tvg-id=" " tvg-chno=" " group-title="体育",NHK BSPHD
+https://tsb-mega.i9.ee/stream/nhkg_hevc_1080p
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/NHK_BS8K_2020_logo.svg/500px-NHK_BS8K_2020_logo.svg.png" tvg-id=" " tvg-chno=" " group-title="体育",NHK BS8K
+https://tsb-mega.i9.ee/stream/nhkbs8k_hevc_mmt
