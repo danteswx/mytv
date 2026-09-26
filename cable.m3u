@@ -411,7 +411,8 @@ http://www.j1s2cn.com:3257/stream/channelid/124662547?auth=PQgplJJUrpQdu9Uk6VeO8
 http://www.j1s2cn.com:3257/stream/channelid/1111844982?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Sichuan.png" tvg-id="0af20b36c80a0173ced83de5e7526bfd" tvg-chno="775" group-title="市县频道",四川卫视4K
 http://www.j1s2cn.com:3257/stream/channelid/906752522?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
-
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shanghai1.png" tvg-id="103979d537ea116e93c0bfaabbf65f04" tvg-chno="777" group-title="市县频道",上海新闻综合
+http://www.j1s2cn.com:3257/stream/channelid/1434007824?auth=PQgplJJUrpQdu9Uk6VeO882x78iQ&profile=pass
 
 
 
