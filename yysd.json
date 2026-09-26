@@ -80,16 +80,16 @@
         "version": "OK-5.1.6"
       },
       {
-        "name": "安卓5-TV32",
-        "url": "https://g.blfrp.cn/https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-ad5-v8a.apk",
+        "name": "安卓7-TV32",
+        "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/ab2a8e3349fba0bde7bc3f4a2b9fda443fab5ddf/apk/release/leanback-armeabi_v7a.apk",
         "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-        "version": "OK-3.7.2"
+        "version": "OK-3.6.2"
       },
       {
-        "name": "安卓5-TV64",
-        "url": "https://g.blfrp.cn/https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-ad5.apk",
+        "name": "安卓7-TV64",
+        "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/ab2a8e3349fba0bde7bc3f4a2b9fda443fab5ddf/apk/release/leanback-arm64_v8a.apk",
         "icon": "https://g.blfrp.cn/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
-        "version": "OK-3.7.2"
+        "version": "OK-3.6.2"
       },
       {
         "name": "手機pro",
