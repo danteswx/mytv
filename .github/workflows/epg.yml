@@ -3,7 +3,7 @@ name: Update EPG
 on:
   schedule:
     # Runs twice a day
-    - cron: "0 23 * * *"
+    - cron: "35 23 * * *"
   workflow_dispatch:  # Manual trigger
 
 jobs:
