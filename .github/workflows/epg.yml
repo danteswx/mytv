@@ -45,4 +45,4 @@ jobs:
           git config --global user.name "actions-user"
           git config --global user.email "actions@github.com"
           git commit -m "Update EPG"
-          git push origin HEAD:refs/heads/epg   # 关键：游离 HEAD 下显式指定目标分支
+          git push --force
