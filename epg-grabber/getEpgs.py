@@ -542,6 +542,7 @@ if __name__ == "__main__":
         'https://iptv.yang-1989.xyz/epg.xml.gz',
         'https://raw.githubusercontent.com/rule-set/epg/refs/heads/epg/epg.xml',
         'https://raw.githubusercontent.com/taksssss/tv/refs/heads/main/epg/erw.xml.gz',
+        'https://raw.githubusercontent.com/taksssss/tv/refs/heads/main/epg/112114.xml.gz',
         'https://raw.githubusercontent.com/taksssss/tv/refs/heads/main/epg/51zmt.xml.gz',
         'https://raw.githubusercontent.com/taksssss/tv/refs/heads/main/epg/51zmte1.xml.gz',
         'https://raw.githubusercontent.com/taksssss/tv/refs/heads/main/epg/51zmte2.xml.gz',
@@ -549,16 +550,14 @@ if __name__ == "__main__":
         'https://raw.githubusercontent.com/taksssss/tv/refs/heads/main/epg/epgpw_hk.xml.gz',
         'https://raw.githubusercontent.com/taksssss/tv/refs/heads/main/epg/epgpw_tw.xml.gz',
         'https://raw.githubusercontent.com/zsz520/epg/main/bjiptv.xml.gz',
-        'https://raw.githubusercontent.com/zsz520/epg/main/chuanliu.xml.gz',
+        #'https://raw.githubusercontent.com/zsz520/epg/main/chuanliu.xml.gz',
         'https://raw.githubusercontent.com/zsz520/epg/main/cqcu.xml.gz',
         'https://raw.githubusercontent.com/zsz520/epg/main/cqiptv.xml.gz',
-        'https://raw.githubusercontent.com/zsz520/epg/main/cqlaidian.xml.gz',
+        #'https://raw.githubusercontent.com/zsz520/epg/main/cqlaidian.xml.gz',
         'https://raw.githubusercontent.com/zsz520/epg/main/fjyd.xml.gz',
         'https://raw.githubusercontent.com/zsz520/epg/main/migu.xml.gz',
         'https://epg.tv.darwinchow.com/epg.xml',
         'https://epg.136605.xyz/9days.xml',
-        'https://gitee.com/gsls200808/xmltvepg/raw/master/e7.xml.gz',
-        'https://raw.githubusercontent.com/peterHchina/iptv/main/EPG.xml',
     ]
     
     process_sources(epg_urls, alias_mapping, config_names)
