@@ -1,47 +1,49 @@
-name: Update EPG 
+name: Update EPG
 
 on:
   schedule:
-    # Runs twice a day
     - cron: "32 6,23 * * *"
-  workflow_dispatch:  # Manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write   # 关键：授权推送到仓库
 
 jobs:
   update-files:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository (no history)
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
-          fetch-depth: 1  # 仅克隆最新提交，减少耗时
+          fetch-depth: 1
           ref: epg
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install requests pytz
-      - name: Run EPG grabber script
-        run: |
-          python getEpgs.py
+      - run: python -m pip install requests pytz
+
+      - run: python getEpgs.py
+
       - name: Check for changes
         id: check-changes
         run: |
+          ls -l e.xml.gz                  # 确认文件真的生成了
+          md5sum e.xml.gz                 # 对比内容是否和仓库里的一致
           git add e.xml.gz
-          if git diff-index --quiet HEAD --; then
+          if git diff --cached --quiet; then
             echo "No changes detected."
-            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
             echo "Changes detected."
-            echo "has_changes=true" >> $GITHUB_OUTPUT
+            git diff --cached --stat
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
-      - name: Commit and push changes (if any)
+
+      - name: Commit and push changes
         if: steps.check-changes.outputs.has_changes == 'true'
         run: |
           git config --global user.name "actions-user"
           git config --global user.email "actions@github.com"
           git commit -m "Update EPG"
-          git push --force
+          git push origin HEAD:refs/heads/epg   # 关键：游离 HEAD 下显式指定目标分支
