@@ -224,6 +224,7 @@ GRTN生活
 求索纪录
 求索动物
 求索科学
+求索生活
 湖州新闻综合,湖州电视台
 湖州文化娱乐
 湖州公共
@@ -1275,8 +1276,6 @@ FGM
 HOY76,HOY 國際財經台
 HOY77,HOY TV
 HOY78,HOY 資訊台
-Hub娱家
-Hub都会
 MOMO综合台
 RTHK31,香港電台31
 RTHK32,香港電台32
@@ -1443,12 +1442,15 @@ TVBS新闻台,TVBS新聞
 TVBS精采台,TVBS精采台
 TVBS欢乐台,TVBS歡樂台
 TVBS综艺台,TVBS綜藝台
+INULTRA
 愛爾達體育1台
 愛爾達體育2台
 愛爾達體育3台
 愛爾達體育4台
 愛爾達體育5台
 愛爾達體育6台
+愛爾達生活旅遊台
+鏡電視新聞台
 国家地理
 爱青春,iHOT爱青春
 爱院线,iHOT爱院线
@@ -1555,3 +1557,208 @@ IPTV高网,高网
 精彩电影
 CCTV中视购物
 4KUHD
+半島國際新聞台
+DW德國之聲,DW
+FRANCE24 英文台,France 24
+NHK World Japan
+CNBC Asia 財經台
+SBN全球財經台
+Bloomberg TV
+時尚運動X
+智林體育台
+My Cinema Europe 我的歐洲電影
+影迷數位電影台
+影迷數位紀實台
+CinemaWorld
+經典電影台
+Love Nature
+視納華仁紀實頻道
+CI 罪案偵查頻道
+History 歷史頻道
+ROCK Action
+ROCK Entertainment
+ROCK Xstream搖滾極限頻道
+ARIRANG阿里郎頻道,Arirang TV
+韓國娛樂台 KMTV
+Lifetime 娛樂頻道
+fun探索娛樂台
+HITS頻道
+灣聲線上音樂廳
+豬哥亮歌廳秀
+采昌影劇台
+CLASSICA 古典樂
+Mezzo Live
+電影原聲台CMusic
+TRACE Urban
+TRACE Sport Stars
+GINX Esports TV
+DreamWorks 夢工廠動畫
+精選動漫台
+經典卡通台
+MagellanTV頻道 (麥哲倫頻道)
+MOMO親子台
+Nick Jr. 兒童頻道
+尼克兒童頻道
+Pet Club TV
+LiveABC互動英語頻道
+ELTV英語學習台
+達文西頻道
+滾動力rollor
+Global Trekker
+LUXE TV Channel
+getwin sport運動台
+ABC Australia 澳洲公廣頻道
+wedotv Movies
+OUTtv
+TV5MONDE STYLE 生活時尚
+幸福空間居家台
+車迷TV
+金光布袋戲
+原住民族電視台
+客家電視台
+國會頻道1
+國會頻道2
+東森購物一台
+東森購物二台
+東森購物三台
+東森購物四台
+新唐人亞太台
+台灣戲劇台
+DayStar
+第1商業
+Smart知識台
+Sky Sports Main Event
+Sky Sports Premier League
+Sky Sports F1
+Sky Sports Football
+Sky Sports Cricket
+Sky Sports Golf
+Sky Sports Mix
+Sky Sports Racing
+FIGHT SPORTS
+SPOTV
+SPOTV 2
+Eurosport 1
+Eurosport 2
+TNT Sports 1
+TNT Sports 2
+TNT Sports 3
+TNT Sports 4
+beIN Sports 1
+beIN Sports 2
+beIN Sports 3
+beIN Sports 4
+beIN Sports 5
+Hub Premier 1
+Hub Premier 2
+Hub Premier 3
+Hub Premier 4
+Hub Premier 5
+Hub Premier 6
+Hub Sports 1
+Hub Sports 2
+Hub Sports 3
+Hub Sports 4
+Hub Sports 5
+Hub Sports 6
+Hub Sports 7
+Hub Sports 8
+TSN 1
+TSN 2
+TSN 3
+TSN 4
+TSN 5
+BBC Earth
+BBC Lifestyle
+Discovery
+HBO
+HBO Hits
+HBO Family
+HBO Signature
+Channel 5
+Channel 8
+Channel U
+TVB Jade
+TVB 功夫台
+TVB 星河台
+Astro AOD
+Astro 歡喜台
+iQIYI
+八度空間
+黃金翡翠台
+戲曲台
+SUPER獎門人
+SUPER識食
+SUPER驚
+SUPER煲劇
+SUPER亞視劇
+真情SUPER煲
+愛．回家SUPER煲
+SUPER Sports
+SUPER Music
+SUPER FREE
+SUPER FUN
+myTV SUPER 18台
+SUPER Kids Channel
+ZooMoo
+Nickelodeon
+Nick Jr
+粵語片台
+Thrill
+天映經典頻道
+中國電影頻道
+Action Hollywood Movies
+Rialto Classic Movies
+KIX
+Love Nature 4K
+Globetrotter
+Docsville
+Wild Stuff
+ROCK綜藝娛樂
+ROCK X Stream
+tvN
+無線衛星亞洲台
+創世電視
+CGTN 記錄頻道
+CGTN 英語頻道
+中央電視台綜合頻道
+中國中央電視台中文國際頻道
+中國中央電視台娛樂頻道
+中國中央電視台戲曲頻道
+東方衛視國際頻道
+雲南瀾湄國際衛視
+安徽廣播電視台國際頻道
+北京電視台國際頻道
+福建海峽衛視國際頻道
+湖南電視台國際頻道
+江蘇電視台國際頻道
+廣東廣播電視台大灣區衛視頻道
+浙江電視台國際頻道
+深圳衛視國際頻道
+NOW 70s
+NOW 80s
+NOW Rock
+NOW 90s00s
+Concerto
+NewTV古裝劇場
+NewTV科教
+NewTV養生
+NewTV功夫
+無線衛星新聞台
+亞洲新聞台
+半島電視台英語頻道
+NewsWorld
+The Indonesia Channel
+myTV SUPER直播足球2台
+myTV SUPER直播足球3台
+myTV SUPER直播足球4台
+myTV SUPER直播足球5台
+myTV SUPER直播足球6台
+myTV SUPER直播足球7台
+咪咕体育
+Hub娱家,Hub 娱家台
+Hub都会,Hub 都会台
+Hub如意,Hub 如意台
+Sky Sports Action
+Sky Sports Tennis
+Sky Sports News
