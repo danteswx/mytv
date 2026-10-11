@@ -539,6 +539,7 @@ if __name__ == "__main__":
         'https://epg.webnet.cloudns.pro/epg/epg.xml.gz',
         'https://gitee.com/gsls200808/xmltvepg/raw/master/e7.xml.gz',
         'http://liliu.serv00.net/epg/all.xml.gz',
+        'https://iptv.yang-1989.xyz/epg.xml.gz',
         'https://raw.githubusercontent.com/rule-set/epg/refs/heads/epg/epg.xml',
         'https://raw.githubusercontent.com/taksssss/tv/refs/heads/main/epg/erw.xml.gz',
         'https://raw.githubusercontent.com/taksssss/tv/refs/heads/main/epg/51zmt.xml.gz',
