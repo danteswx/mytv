@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write   # 关键：授权推送到仓库
-  workflows: write
 
 jobs:
   update-files:
