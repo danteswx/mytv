@@ -2,7 +2,7 @@ name: Update EPG
 
 on:
   schedule:
-    - cron: "32 6,18 * * *"
+    - cron: "32 4,20 * * *"
   workflow_dispatch:
 
 permissions:
