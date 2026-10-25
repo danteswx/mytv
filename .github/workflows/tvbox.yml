@@ -118,7 +118,7 @@ jobs:
             echo "没有检测到变更, 跳过提交"
           else
             git add -A
-            git commit -m "chore: sync & decrypt from ssm123-coder/a $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git commit -m "chore: sync & decrypt $(date -u '+%Y-%m-%d %H:%M') UTC"
             git push origin tvbox
             echo "同步+解密完成, 已推送到 tvbox 分支"
           fi
