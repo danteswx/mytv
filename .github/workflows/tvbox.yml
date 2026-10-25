@@ -28,8 +28,8 @@ jobs:
         run: |
           # 首次运行时自动创建 tvbox 目录
           mkdir -p tvbox
-          # 清空旧内容(保留目录本身), 确保删除的文件也会同步移除
-          find tvbox -mindepth 1 -delete
+          # 清空旧内容(保留目录本身和 tvbox.py 脚本), 确保删除的文件也会同步移除
+          find tvbox -mindepth 1 ! -name 'tvbox.py' -delete
           # 拷贝源仓库全部内容(排除 .git)到 tvbox 目录
           cd /tmp/source
           find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec cp -r {} "$GITHUB_WORKSPACE/tvbox/" \;
@@ -45,10 +45,11 @@ jobs:
       - name: 解密 a 和 b 文件
         run: |
           cd "$GITHUB_WORKSPACE"
+          # 使用仓库中 tvbox/tvbox.py 脚本解密
           # 解密 tvbox/a -> tvbox/a.json (AES-CBC + hex 编码的 TVBox 配置)
-          python tvbox.py tvbox/a tvbox/a.json dec
+          python tvbox/tvbox.py tvbox/a tvbox/a.json dec
           # 解密 tvbox/b -> tvbox/b.json
-          python tvbox.py tvbox/b tvbox/b.json dec
+          python tvbox/tvbox.py tvbox/b tvbox/b.json dec
           # 验证解密结果为有效 JSON
           python -c "
           import json
