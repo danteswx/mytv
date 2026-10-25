@@ -205,9 +205,9 @@ class 文件加解密器:
                 with open(输入文件, 'r', encoding='utf-8') as f:
                     hex数据 = f.read().strip()
 
-            # 移除JavaScript风格的注释（// 开头的行）
+            # 移除JavaScript风格的注释（// 开头的行，含缩进）
             import re
-            hex数据 = re.sub(r'^//.*$', '', hex数据, flags=re.MULTILINE).strip()
+            hex数据 = re.sub(r'^\s*//.*$', '', hex数据, flags=re.MULTILINE).strip()
 
             # 尝试直接解析为JSON（如果已经是JSON格式）
             try:
@@ -246,8 +246,12 @@ class 文件加解密器:
             cipher = AES.new(填充key, AES.MODE_CBC, 填充iv)
             decrypted = unpad(cipher.decrypt(bytes.fromhex(cipher_hex)), 16)
 
+            明文 = decrypted.decode()
+            # 清理解密文本中的注释行（含缩进的 // 注释）
+            明文 = re.sub(r'^\s*//.*$', '', 明文, flags=re.MULTILINE)
+
             with open(输出文件, 'w', encoding='utf-8') as f:
-                json.dump(json.loads(decrypted.decode()), f, ensure_ascii=False, indent=2)
+                json.dump(json.loads(明文), f, ensure_ascii=False, indent=2)
 
             print(f"✓ 解密成功: {输入文件}")
             return True
@@ -265,9 +269,9 @@ class 文件加解密器:
             if 内容 is None:
                 return False
 
-            # 移除JavaScript风格的注释（// 开头的行）
+            # 移除JavaScript风格的注释（// 开头的行，含缩进）
             import re
-            内容 = re.sub(r'^//.*$', '', 内容, flags=re.MULTILINE).strip()
+            内容 = re.sub(r'^\s*//.*$', '', 内容, flags=re.MULTILINE).strip()
 
             # 尝试解析为JSON并格式化保存
             try:
