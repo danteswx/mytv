@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout mytv 仓库
+      - name: Checkout mytv 仓库 (main 分支)
         uses: actions/checkout@v4
         with:
           repository: danteswx/mytv
@@ -24,15 +24,34 @@ jobs:
         run: |
           git clone --depth 1 https://github.com/ssm123-coder/a.git /tmp/source
 
-      - name: 同步内容到 tvbox 目录
+      - name: 备份解密脚本 (来自 main 分支 tvbox/tvbox.py)
         run: |
-          # 首次运行时自动创建 tvbox 目录
-          mkdir -p tvbox
-          # 清空旧内容(保留目录本身和 tvbox.py 脚本), 确保删除的文件也会同步移除
-          find tvbox -mindepth 1 ! -name 'tvbox.py' -delete
-          # 拷贝源仓库全部内容(排除 .git)到 tvbox 目录
+          if [ ! -f tvbox/tvbox.py ]; then
+            echo "✗ main 分支缺少 tvbox/tvbox.py, 请先上传该脚本"; exit 1
+          fi
+          cp tvbox/tvbox.py /tmp/tvbox.py
+
+      - name: 切换到 tvbox 分支 (不存在则自动创建孤儿分支)
+        run: |
+          if git ls-remote --heads origin tvbox | grep -q refs/heads/tvbox; then
+            echo "tvbox 分支已存在, 切换到该分支"
+            git fetch origin tvbox
+            git checkout -B tvbox origin/tvbox
+          else
+            echo "tvbox 分支不存在, 创建孤儿分支 (无历史, 根目录只放同步内容)"
+            git checkout --orphan tvbox
+          fi
+
+      - name: 同步源仓库内容到 tvbox 分支根目录
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          # 清空工作区(保留 .git), 确保源仓库删除的文件也同步移除
+          find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+          # 拷贝源仓库全部内容(排除 .git)到根目录
           cd /tmp/source
-          find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec cp -r {} "$GITHUB_WORKSPACE/tvbox/" \;
+          find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec cp -r {} "$GITHUB_WORKSPACE/" \;
+          # 恢复解密脚本到根目录
+          cp /tmp/tvbox.py "$GITHUB_WORKSPACE/tvbox.py"
 
       - name: 配置 Python 环境
         uses: actions/setup-python@v5
@@ -45,29 +64,61 @@ jobs:
       - name: 解密 a 和 b 文件
         run: |
           cd "$GITHUB_WORKSPACE"
-          # 使用仓库中 tvbox/tvbox.py 脚本解密
-          # 解密 tvbox/a -> tvbox/a.json (AES-CBC + hex 编码的 TVBox 配置)
-          python tvbox/tvbox.py tvbox/a tvbox/a.json dec
-          # 解密 tvbox/b -> tvbox/b.json
-          python tvbox/tvbox.py tvbox/b tvbox/b.json dec
+          # 解密 a -> a.json / b -> b.json (AES-CBC + hex 编码的 TVBox 配置)
+          python tvbox.py a a.json dec
+          python tvbox.py b b.json dec
           # 验证解密结果为有效 JSON
           python -c "
           import json
-          for f in ['tvbox/a.json', 'tvbox/b.json']:
+          for f in ['a.json', 'b.json']:
               data = json.load(open(f, encoding='utf-8'))
               print(f'{f}: 有效JSON, sites数量: {len(data.get(\"sites\", []))}')
           "
 
-      - name: 检测变更并提交推送
+      - name: 后处理 (URL 替换 + 删除 notice/warningText)
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          python - <<'PYEOF'
+          import json
+
+          OLD_PREFIX = 'https://gh-proxy.org/raw.githubusercontent.com/ssm123-coder/a/main/'
+          NEW_PREFIX = 'https://raw.githubusercontent.com/danteswx/mytv/tvbox/'
+
+          def replace_urls(obj):
+              """递归替换所有字符串中的 URL 前缀"""
+              if isinstance(obj, str):
+                  return obj.replace(OLD_PREFIX, NEW_PREFIX)
+              if isinstance(obj, list):
+                  return [replace_urls(i) for i in obj]
+              if isinstance(obj, dict):
+                  return {k: replace_urls(v) for k, v in obj.items()}
+              return obj
+
+          tasks = [
+              ('a.json', ['notice', 'warningText']),  # a.json 删除 notice + warningText
+              ('b.json', ['notice']),                 # b.json 只删除 notice
+          ]
+          for fname, drop_keys in tasks:
+              with open(fname, encoding='utf-8') as f:
+                  data = json.load(f)
+              replaced = json.dumps(data, ensure_ascii=False).count(OLD_PREFIX)
+              data = replace_urls(data)
+              dropped = [k for k in drop_keys if data.pop(k, None) is not None]
+              with open(fname, 'w', encoding='utf-8') as f:
+                  json.dump(data, f, ensure_ascii=False, indent=2)
+              print(f'{fname}: 替换URL {replaced} 处, 删除字段 {dropped}')
+          PYEOF
+
+      - name: 检测变更并提交推送到 tvbox 分支
         run: |
           cd "$GITHUB_WORKSPACE"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+          if [ -z "$(git status --porcelain)" ]; then
             echo "没有检测到变更, 跳过提交"
           else
-            git add tvbox
-            git commit -m "chore(tvbox): sync & decrypt from ssm123-coder/a $(date -u '+%Y-%m-%d %H:%M') UTC"
-            git push
-            echo "同步+解密完成并已推送"
+            git add -A
+            git commit -m "chore: sync & decrypt from ssm123-coder/a $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git push origin tvbox
+            echo "同步+解密完成, 已推送到 tvbox 分支"
           fi
