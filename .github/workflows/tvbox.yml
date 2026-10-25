@@ -34,6 +34,29 @@ jobs:
           cd /tmp/source
           find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec cp -r {} "$GITHUB_WORKSPACE/tvbox/" \;
 
+      - name: 配置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装解密依赖
+        run: pip install pycryptodome
+
+      - name: 解密 a 和 b 文件
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          # 解密 tvbox/a -> tvbox/a.json (AES-CBC + hex 编码的 TVBox 配置)
+          python tvbox.py tvbox/a tvbox/a.json dec
+          # 解密 tvbox/b -> tvbox/b.json
+          python tvbox.py tvbox/b tvbox/b.json dec
+          # 验证解密结果为有效 JSON
+          python -c "
+          import json
+          for f in ['tvbox/a.json', 'tvbox/b.json']:
+              data = json.load(open(f, encoding='utf-8'))
+              print(f'{f}: 有效JSON, sites数量: {len(data.get(\"sites\", []))}')
+          "
+
       - name: 检测变更并提交推送
         run: |
           cd "$GITHUB_WORKSPACE"
@@ -43,7 +66,7 @@ jobs:
             echo "没有检测到变更, 跳过提交"
           else
             git add tvbox
-            git commit -m "chore(tvbox): sync from ssm123-coder/a $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git commit -m "chore(tvbox): sync & decrypt from ssm123-coder/a $(date -u '+%Y-%m-%d %H:%M') UTC"
             git push
-            echo "同步完成并已推送"
+            echo "同步+解密完成并已推送"
           fi
