@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/jar/huban.jar",
+  "spider": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/huban.jar",
   "wallpaper": "http://fmys.top/img.php",
   "logo": "https://pic.nximg.cn/file/20250530/35182407_094206711109_2.jpg",
   "sites": [
@@ -22,22 +22,22 @@
       "key": "ytcc_js",
       "name": "影探ᶜᵃᵗ｜4 K",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/ytcc.js"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/ytcc.js"
     },
     {
       "key": "yingtan_py",
       "name": "影探ᵖʸ｜4 K",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/yingtan.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/yingtan.py"
     },
     {
       "key": "baipiao_js",
       "name": "白鸭ᶜᵃᵗ｜4 K",
       "playerType": "2",
       "type": 3,
-      "jar": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/baipiao.js"
+      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
+      "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/baipiao.js"
     },
     {
       "key": "cai_cms",
@@ -54,7 +54,7 @@
       "key": "gulu_py",
       "name": "咕噜ᵖʸ｜4 K",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/gulu.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/gulu.py"
     },
     {
       "key": "woou_wp",
@@ -138,7 +138,7 @@
       "key": "yd_jar",
       "name": "移动ᶜˢᵖ｜免扫",
       "type": 3,
-      "jar": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/jar/yd.jar",
+      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/yd.jar",
       "api": "csp_YiDong",
       "timeout": 60
     },
@@ -146,43 +146,43 @@
       "key": "bilibili_py",
       "name": "哔哩ᵖʸ｜视频",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/bilibili.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/bilibili.py"
     },
     {
       "key": "symx_py",
       "name": "山有ᵖʸ｜木兮",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/symx.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/symx.py"
     },
     {
       "key": "xpg_py",
       "name": "苹果ᵖʸ｜蓝光",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/xpg.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/xpg.py"
     },
     {
       "key": "jizhi_py",
       "name": "橘汁ᵖʸ｜蓝光",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/jizhi.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/jizhi.py"
     },
     {
       "key": "juxiafan_py",
       "name": "下饭ᵖʸ｜蓝光",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/juxiafan.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/juxiafan.py"
     },
     {
       "key": "guazi_py",
       "name": "瓜子ᵖʸ｜蓝光",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/guazi.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/guazi.py"
     }
   ],
   "lives": [
     {
       "name": "央视频",
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/yangshipin.py",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/yangshipin.py",
       "ext": {}
     },
     {

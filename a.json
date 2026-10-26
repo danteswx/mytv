@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/jar/niuma.jar",
+  "spider": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/niuma.jar",
   "wallpaper": "http://fmys.top/img.php",
   "logo": "https://pic.nximg.cn/file/20250530/35182407_094206711109_2.jpg",
   "sites": [
@@ -17,9 +17,9 @@
       "name": "白鸭ᶜᵃᵗ｜4 K",
       "playerType": "2",
       "type": 3,
-      "jar": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/baipiao.js"
+      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
+      "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/baipiao.js"
     },
     {
       "key": "sx4k_cms",
@@ -31,59 +31,59 @@
       "key": "ytcc_js",
       "name": "影探ᶜᵃᵗ｜4 K",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/ytcc.js"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/ytcc.js"
     },
     {
       "key": "yingtan_py",
       "name": "影探ᵖʸ｜4 K",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/yingtan.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/yingtan.py"
     },
     {
       "key": "gulu_py",
       "name": "咕噜ᵖʸ｜4 K",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/gulu.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/gulu.py"
     },
     {
       "key": "txsp_js",
       "name": "腾讯ᶜᵃᵗ｜解析",
       "type": 3,
-      "jar": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/txsp.js"
+      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
+      "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/txsp.js"
     },
     {
       "key": "mgsp_js",
       "name": "芒果ᶜᵃᵗ｜解析",
       "type": 3,
-      "jar": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/mgsp.js"
+      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
+      "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/mgsp.js"
     },
     {
       "key": "bilisp_js",
       "name": "哔哩ᶜᵃᵗ｜解析",
       "type": 3,
-      "jar": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/bilisp.js"
+      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
+      "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/bilisp.js"
     },
     {
       "key": "yksp_js",
       "name": "优酷ᶜᵃᵗ｜解析",
       "type": 3,
-      "jar": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/yksp.js"
+      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
+      "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/yksp.js"
     },
     {
       "key": "aqysp_js",
       "name": "奇艺ᶜᵃᵗ｜解析",
       "type": 3,
-      "jar": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/aqysp.js"
+      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
+      "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/aqysp.js"
     },
     {
       "key": "cai_cms",
@@ -257,7 +257,7 @@
       "key": "YiDong",
       "name": "移动ᶜˢᵖ｜免扫",
       "type": 3,
-      "jar": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/jar/yd.jar",
+      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/yd.jar",
       "api": "csp_YiDong",
       "timeout": 60
     },
@@ -343,13 +343,13 @@
       "key": "bilibili_py",
       "name": "哔哩ᵖʸ｜解析",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/bilibili.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/bilibili.py"
     },
     {
       "key": "ngsp_js",
       "name": "南瓜ᶜᵃᵗ｜蓝光",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/llsp.min.js",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/llsp.min.js",
       "ext": {
         "appId": "10003",
         "verCode": 58,
@@ -374,13 +374,13 @@
       "key": "symx_py",
       "name": "木兮ᵖʸ｜蓝光",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/symx.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/symx.py"
     },
     {
       "key": "yunduo_js",
       "name": "云朵ᶜᵃᵗ｜蓝光",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/yunduo.js",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/yunduo.js",
       "ext": {
         "host": "https://duoduosdf12223234334.top",
         "finger": "WF-2c064bc5b3400788f31b848849bc3a60f835423ba2dfe69d7ea93974c216e4f2",
@@ -398,50 +398,50 @@
       "key": "bubu_py",
       "name": "布布ᵖʸ｜蓝光",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/bubu.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/bubu.py"
     },
     {
       "key": "juxiafan_py",
       "name": "下饭ᵖʸ｜蓝光",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/juxiafan.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/juxiafan.py"
     },
     {
       "key": "qmys_py",
       "name": "青麦ᵖʸ｜蓝光",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/qmys.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/qmys.py"
     },
     {
       "key": "duboku_js",
       "name": "独播ᶜᵃᵗ｜蓝光",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/duboku.js",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/duboku.js",
       "indexs": 0
     },
     {
       "key": "kanke_py",
       "name": "看客ᵖʸ｜蓝光",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/kanke.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/kanke.py"
     },
     {
       "key": "guazi_py",
       "name": "瓜子ᵖʸ｜蓝光",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/guazi.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/guazi.py"
     },
     {
       "key": "huashu_py",
       "name": "华数ᵖʸ｜蓝光",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/huashu.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/huashu.py"
     },
     {
       "key": "hanju_py",
       "name": "韩圈ᵖʸ｜蓝光",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/hanju.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/hanju.py"
     },
     {
       "key": "Mdd",
@@ -508,19 +508,19 @@
       "key": "wllive_py",
       "name": "网络ᵖʸ｜直播",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/wllive.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/wllive.py"
     },
     {
       "key": "bililive_py",
       "name": "哔哩ᵖʸ｜直播",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/bililive.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/bililive.py"
     },
     {
       "key": "dylive_py",
       "name": "抖音ᵖʸ｜直播",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/dylive.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/dylive.py"
     },
     {
       "key": "kglive",
@@ -546,13 +546,13 @@
       "key": "yingzhikong_py",
       "name": "樱之空ᵖʸ｜动漫",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/yingzhikong.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/yingzhikong.py"
     },
     {
       "key": "hgdj_py",
       "name": "红果ᵖʸ｜短剧",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/hgdj.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/hgdj.py"
     },
     {
       "key": "ShortHG",
@@ -608,7 +608,7 @@
       "key": "bddj_js",
       "name": "百度ᶜᵃᵗ｜短剧",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/bddj.js",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/bddj.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -617,21 +617,21 @@
       "key": "kwmusic_py",
       "name": "酷我ᵖʸ｜音乐",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/kwmusic.py"
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/kwmusic.py"
     },
     {
       "key": "qtfm_js",
       "name": "蜻蜓ᶜᵃᵗ｜广播",
       "type": 3,
-      "jar": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/js/qtfm.js"
+      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
+      "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/qtfm.js"
     },
     {
       "key": "ytbts_py",
       "name": "悦听ᵖʸ｜听书",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/ytbts.py",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/ytbts.py",
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0
@@ -867,7 +867,7 @@
       "key": "juese_py",
       "name": "绝色ᵖʸ｜🔞禁",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/juese.py",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/juese.py",
       "searchable": 0,
       "changeable": 0
     },
@@ -883,7 +883,7 @@
   "lives": [
     {
       "name": "央视频",
-      "api": "https://raw.githubusercontent.com/danteswx/mytv/tvbox/py/yangshipin.py",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/yangshipin.py",
       "ext": {}
     },
     {
