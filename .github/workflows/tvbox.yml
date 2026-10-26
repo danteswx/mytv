@@ -82,7 +82,7 @@ jobs:
           import json
 
           OLD_PREFIX = 'https://gh-proxy.org/raw.githubusercontent.com/ssm123-coder/a/main/'
-          NEW_PREFIX = 'https://raw.githubusercontent.com/danteswx/mytv/tvbox/'
+          NEW_PREFIX = 'https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/'
 
           def replace_urls(obj):
               """递归替换所有字符串中的 URL 前缀"""
@@ -118,7 +118,7 @@ jobs:
             echo "没有检测到变更, 跳过提交"
           else
             git add -A
-            git commit -m "chore: sync & decrypt $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git commit -m "chore: sync $(date -u '+%Y-%m-%d %H:%M') UTC"
             git push origin tvbox
             echo "同步+解密完成, 已推送到 tvbox 分支"
           fi
