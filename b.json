@@ -57,6 +57,18 @@
       "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/gulu.py"
     },
     {
+      "key": "piandi_py",
+      "name": "片帝ᵖʸ｜4 K",
+      "type": 3,
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/piandi.py"
+    },
+    {
+      "key": "shanzha_py",
+      "name": "山楂ᵖʸ｜4 K",
+      "type": 3,
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/shanzha.py"
+    },
+    {
       "key": "woou_wp",
       "name": "玩偶ʷᵖ｜免扫",
       "type": 3,
@@ -149,6 +161,24 @@
       "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/bilibili.py"
     },
     {
+      "key": "qmys_py",
+      "name": "青麦ᵖʸ｜蓝光",
+      "type": 3,
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/qmys.py"
+    },
+    {
+      "key": "hanju_py",
+      "name": "韩圈ᵖʸ｜蓝光",
+      "type": 3,
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/hanju.py"
+    },
+    {
+      "key": "tvb_py",
+      "name": "TVBᵖʸ｜蓝光",
+      "type": 3,
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/tvb.py"
+    },
+    {
       "key": "symx_py",
       "name": "山有ᵖʸ｜木兮",
       "type": 3,
@@ -180,6 +210,13 @@
     }
   ],
   "lives": [
+    {
+      "name": "星耀源",
+      "url": "http://lzzlj.xyys.site/simple-play1.php?mode=play1;id=b654513ab752f7a72e6445fcb756a74f;token=s95yF93zdQagdsZXDU4Fghj7vPQPj1VC",
+      "type": 0,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
     {
       "name": "央视频",
       "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/yangshipin.py",
@@ -246,14 +283,14 @@
       "url": "https://niubi.69mini.com/api/?key=0a93b8f6303b79f7be0465c30d305c44&url="
     },
     {
-      "name": "污鸭",
-      "type": 1,
-      "url": "http://jiexi.fc8001.top/QdmDeQSTpxSyDwgn.php?url="
-    },
-    {
       "name": "小白",
       "type": 1,
       "url": "http://xiaobaibai.feng1210.top/api.php?key=spjk666&url="
+    },
+    {
+      "name": "污鸭",
+      "type": 1,
+      "url": "http://jiexi.fc8001.top/QdmDeQSTpxSyDwgn.php?url="
     },
     {
       "name": "凯胜",
@@ -279,6 +316,16 @@
       "name": "批零",
       "type": 1,
       "url": "http://101.201.171.207:9898/home/api?type=ys&uid=89089&key=afgkpqwAKLMPQSTU17&url="
+    },
+    {
+      "name": "嫖一",
+      "type": 1,
+      "url": "http://114.66.51.153:2006/api/?key=9df31116c47da6a984097931955ad8d2&url="
+    },
+    {
+      "name": "嫖二",
+      "type": 1,
+      "url": "http://zxy-th1.jsszks.dpdns.org:8090/?url="
     }
   ]
 }

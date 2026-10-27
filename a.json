@@ -46,6 +46,18 @@
       "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/gulu.py"
     },
     {
+      "key": "piandi_py",
+      "name": "片帝ᵖʸ｜4 K",
+      "type": 3,
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/piandi.py"
+    },
+    {
+      "key": "shanzha_py",
+      "name": "山楂ᵖʸ｜4 K",
+      "type": 3,
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/shanzha.py"
+    },
+    {
       "key": "txsp_js",
       "name": "腾讯ᶜᵃᵗ｜解析",
       "type": 3,
@@ -346,6 +358,12 @@
       "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/bilibili.py"
     },
     {
+      "key": "tvb_py",
+      "name": "TVBᵖʸ｜蓝光",
+      "type": 3,
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/tvb.py"
+    },
+    {
       "key": "ngsp_js",
       "name": "南瓜ᶜᵃᵗ｜蓝光",
       "type": 3,
@@ -549,6 +567,12 @@
       "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/yingzhikong.py"
     },
     {
+      "key": "mfpdm_py",
+      "name": "MFPᵖʸ｜动漫",
+      "type": 3,
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/mfpdm.py"
+    },
+    {
       "key": "hgdj_py",
       "name": "红果ᵖʸ｜短剧",
       "type": 3,
@@ -628,6 +652,20 @@
       "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/qtfm.js"
     },
     {
+      "key": "88kq_js",
+      "name": "八八ᶜᵃᵗ｜看球",
+      "type": 3,
+      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
+      "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js//88kq.js",
+      "style": {
+        "type": "rect"
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
       "key": "ytbts_py",
       "name": "悦听ᵖʸ｜听书",
       "type": 3,
@@ -650,7 +688,7 @@
     },
     {
       "key": "AppLY",
-      "name": "戏曲ᶜˢᵖ｜多多",
+      "name": "多多ᶜˢᵖ｜戏曲",
       "type": 3,
       "api": "csp_AppLY",
       "searchable": 0,
@@ -882,6 +920,13 @@
   ],
   "lives": [
     {
+      "name": "星耀源",
+      "url": "http://lzzlj.xyys.site/simple-play1.php?mode=play1;id=b654513ab752f7a72e6445fcb756a74f;token=s95yF93zdQagdsZXDU4Fghj7vPQPj1VC",
+      "type": 0,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
       "name": "央视频",
       "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/yangshipin.py",
       "ext": {}
@@ -947,14 +992,14 @@
       "url": "https://niubi.69mini.com/api/?key=0a93b8f6303b79f7be0465c30d305c44&url="
     },
     {
-      "name": "污鸭",
-      "type": 1,
-      "url": "http://jiexi.fc8001.top/QdmDeQSTpxSyDwgn.php?url="
-    },
-    {
       "name": "小白",
       "type": 1,
       "url": "http://xiaobaibai.feng1210.top/api.php?key=spjk666&url="
+    },
+    {
+      "name": "污鸭",
+      "type": 1,
+      "url": "http://jiexi.fc8001.top/QdmDeQSTpxSyDwgn.php?url="
     },
     {
       "name": "凯胜",
@@ -980,6 +1025,16 @@
       "name": "批零",
       "type": 1,
       "url": "http://101.201.171.207:9898/home/api?type=ys&uid=89089&key=afgkpqwAKLMPQSTU17&url="
+    },
+    {
+      "name": "嫖一",
+      "type": 1,
+      "url": "http://114.66.51.153:2006/api/?key=9df31116c47da6a984097931955ad8d2&url="
+    },
+    {
+      "name": "嫖二",
+      "type": 1,
+      "url": "http://zxy-th1.jsszks.dpdns.org:8090/?url="
     }
   ],
   "flags": [
