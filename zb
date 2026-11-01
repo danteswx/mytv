@@ -1,3 +1,4 @@
+
 授权频道,#genre#
 点击授权,http://app.kds666.top:5566/api/get_user_info.php?device_id=9a403c52d6e4a3fb&mac=08%3A29%3A55%3A25%3A0C%3A4D
 凤凰中文,http://app.kds666.top:5566/api.php?id=1&s=1
@@ -959,7 +960,7 @@ CCTV15,http://app.kds666.top:5566/api.php?id=63&s=11
 CCTV16,http://app.kds666.top:5566/api.php?id=64&s=11
 CCTV17,http://app.kds666.top:5566/api.php?id=65&s=11
 
-瑟瑟频道,#genre#
+惊艳频道,#genre#
 松视1台,http://app.kds666.top:5566/api.php?id=1&s=11
 松视2台,http://app.kds666.top:5566/api.php?id=2&s=11
 松视3台,http://app.kds666.top:5566/api.php?id=3&s=11
