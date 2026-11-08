@@ -192,6 +192,26 @@
       "name": "瓜子ᵖʸ｜视频",
       "type": 3,
       "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/guazi.py"
+    },
+    {
+      "key": "体育聚合",
+      "name": "聚合ᶜᵃᵗ｜球赛",
+      "type": 3,
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/体育聚合.js",
+      "style": {
+        "type": "rect"
+      },
+      "changeable": 1
+    },
+    {
+      "key": "蜘蛛体育",
+      "name": "蜘蛛ᶜᵃᵗ｜球赛",
+      "type": 3,
+      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/蜘蛛体育.js",
+      "style": {
+        "type": "rect"
+      },
+      "changeable": 1
     }
   ],
   "lives": [
