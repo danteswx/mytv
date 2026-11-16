@@ -70,7 +70,7 @@ jobs:
           # 验证解密结果为有效 JSON
           python -c "
           import json
-          for f in ['a.json'']:
+          for f in ['a.json']:
               data = json.load(open(f, encoding='utf-8'))
               print(f'{f}: 有效JSON, sites数量: {len(data.get(\"sites\", []))}')
           "
