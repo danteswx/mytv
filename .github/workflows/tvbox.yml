@@ -66,11 +66,11 @@ jobs:
           # 使用 /tmp 中的脚本解密(脚本不进入 tvbox 分支)
           # 解密 a -> a.json / b -> b.json (AES-CBC + hex 编码的 TVBox 配置)
           python /tmp/tvbox.py a a.json dec
-          python /tmp/tvbox.py b b.json dec
+          #python /tmp/tvbox.py b b.json dec
           # 验证解密结果为有效 JSON
           python -c "
           import json
-          for f in ['a.json', 'b.json']:
+          for f in ['a.json'']:
               data = json.load(open(f, encoding='utf-8'))
               print(f'{f}: 有效JSON, sites数量: {len(data.get(\"sites\", []))}')
           "
@@ -96,7 +96,7 @@ jobs:
 
           tasks = [
               ('a.json', ['notice', 'warningText']),  # a.json 删除 notice + warningText
-              ('b.json', ['notice']),                 # b.json 只删除 notice
+              #('b.json', ['notice']),                 # b.json 只删除 notice
           ]
           for fname, drop_keys in tasks:
               with open(fname, encoding='utf-8') as f:
