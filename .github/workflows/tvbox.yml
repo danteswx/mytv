@@ -22,7 +22,7 @@ jobs:
 
       - name: 克隆源仓库 ssm123-coder/a
         run: |
-          git clone --depth 1 https://github.com/ssm123-coder/a.git /tmp/source
+          git clone --depth 1 https://gitee.com/zdrnko/aa.git /tmp/source
 
       - name: 备份解密脚本 (来自 main 分支 tvbox/tvbox.py)
         run: |
