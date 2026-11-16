@@ -21,7 +21,7 @@ API = "https://api.bilibili.com"
 UA = "WCNM"
 
 _DEFAULT_COOKIE = (
-    "SESSDATA=3eec38f5%2C1809583959%2C88ffb%2Ab1CjAp4HOYXi9LqFSHFPm-9PkOZPasE3bdFMJBrnx9b8LY-x2DAlQtBbEHnZZS_VlMJaASVnRCM1c0NHNmY2FsVFZoR0FWLXI5ek15YnE2cGFSR2hobWtZN21WRm1ucUVGbFBuZFdnbGhQNDhFQVZIVm9rVW1JWHc4RGszQ0JsS3dQclJNT3p5d01nIIEC;"
+    "SESSDATA=ed91686f,1799832204,ad34a*72CjDPtz5qmaZnTTuGE0qJ6rfSRCx3LbbYcjrwpRQbGHGSU9jS4BjIjVvrbN9J_2e5UaUSVkIwM3lGbmJIVWNvNDZ0cUpLMXhBaWlXeTVfOHFpeDlreDNOc3dadHZ3NnZBUkU3Sl92bU9XLVA0ZjZ0ekd6U3N6N2ZIaEp1cWVOUGRmeHppWGVySFVnIIEC;"
 )
 
 
@@ -492,7 +492,7 @@ class Spider:
 
         if raw.startswith("http"):
             url = raw
-            danmaku = "http://121.41.93.205/dm.php?url=" + urllib.parse.quote(url, safe="")
+            danmaku = "https://api.bilibili.com/x/v1/dm/list.so?oid=" + urllib.parse.quote(url, safe="")
             return {"parse": 0, "url": url, "header": {"User-Agent": UA, "Referer": SITE + "/", "Cookie": self.cookie}, "jx": 1, "danmaku": danmaku}
 
         parts = raw.split("_")

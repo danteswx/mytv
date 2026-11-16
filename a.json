@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/niuma.jar",
+  "spider": "https://gitee.com/zdrnko/aa/raw/master/jar/niuma.jar",
   "wallpaper": "http://fmys.top/img.php",
   "logo": "https://pic.nximg.cn/file/20250530/35182407_094206711109_2.jpg",
   "sites": [
@@ -22,74 +22,42 @@
       "key": "ytcc_js",
       "name": "影探ᶜᵃᵗ｜影视",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/ytcc.js"
+      "api": "https://gitee.com/zdrnko/aa/raw/master/js/ytcc.js"
     },
     {
       "key": "yingtan_py",
       "name": "影探ᵖʸ｜影视",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/yingtan.py"
-    },
-    {
-      "key": "gulu_py",
-      "name": "咕噜ᵖʸ｜影视",
-      "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/gulu.py"
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/yingtan.py"
     },
     {
       "key": "hetun_py",
       "name": "河豚ᵖʸ｜影视",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/hetun.py"
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/hetun.py"
+    },
+    {
+      "key": "juzi_py",
+      "name": "橘汁ᵖʸ｜影视",
+      "type": 3,
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/juzi.py"
     },
     {
       "key": "baipiao_js",
       "name": "白鸭ᶜᵃᵗ｜解析",
       "playerType": "2",
       "type": 3,
-      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
-      "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/baipiao.js"
-    },
-    {
-      "key": "txsp_js",
-      "name": "腾讯ᶜᵃᵗ｜解析",
-      "type": 3,
-      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
-      "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/txsp.js"
-    },
-    {
-      "key": "mgsp_js",
-      "name": "芒果ᶜᵃᵗ｜解析",
-      "type": 3,
-      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
-      "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/mgsp.js"
-    },
-    {
-      "key": "bilisp_js",
-      "name": "哔哩ᶜᵃᵗ｜解析",
-      "type": 3,
-      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
-      "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/bilisp.js"
+      "jar": "https://gitee.com/zdrnko/aa/raw/master/jar/fmjs.zip",
+      "api": "https://gitee.com/zdrnko/aa/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/zdrnko/aa/raw/master/js/baipiao.png"
     },
     {
       "key": "yksp_js",
       "name": "优酷ᶜᵃᵗ｜解析",
       "type": 3,
-      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
-      "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/yksp.js"
-    },
-    {
-      "key": "aqysp_js",
-      "name": "爱奇艺ᶜᵃᵗ｜解析",
-      "type": 3,
-      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
-      "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/aqysp.js"
+      "jar": "https://gitee.com/zdrnko/aa/raw/master/jar/fmjs.zip",
+      "api": "https://gitee.com/zdrnko/aa/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/zdrnko/aa/raw/master/js/yksp.png"
     },
     {
       "key": "cai_cms",
@@ -101,6 +69,12 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": ""
+    },
+    {
+      "key": "bilibili_py",
+      "name": "哔哩ᵖʸ｜解析",
+      "type": 3,
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/bilibili.py"
     },
     {
       "key": "玩偶自扫",
@@ -260,21 +234,10 @@
       "timeout": 60
     },
     {
-      "key": "YiDong",
-      "name": "移动ᶜˢᵖ｜免扫",
+      "key": "移动云盘",
+      "name": "移动ᵖʸ｜免扫",
       "type": 3,
-      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/yd.jar",
-      "api": "csp_YiDong",
-      "timeout": 60
-    },
-    {
-      "key": "埋堆堆",
-      "name": "埋堆堆ᶜˢᵖ｜免扫",
-      "type": 3,
-      "api": "csp_MddNl",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/ydyp.py"
     },
     {
       "key": "咕噜APP",
@@ -306,26 +269,6 @@
       }
     },
     {
-      "key": "橘汁APP",
-      "name": "橘汁ᶜˢᵖ｜APP",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "橘汁",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp9Ek4wIlQAtwFnuBRlsFiow2tr+4UOciGeNKbY7nL74etUqUb6fvpOSOHhFEfaWlfwUpOB17x3JEL3No19nfjCeVYrYPjlJcgoqUWH/tfIfFAQWvtxBIBlKazkhw8d3ChysWmeWRikKqkBsVRY4oqNPuj4sjm6Zult0U4I4prRQIDAQAB",
-        "dataKey": "ZU1DSFFWNENKMDYXMZDVNSTHTDRRPT0=",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.dasjkjfd.mgd",
-        "host": "",
-        "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
-        "version": "3.0.6.0",
-        "decrypt": "1"
-      }
-    },
-    {
       "key": "苹果APP",
       "name": "苹果ᶜˢᵖ｜APP",
       "type": 3,
@@ -349,43 +292,37 @@
       "key": "kanke_py",
       "name": "看客ᵖʸ｜视频",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/kanke.py"
-    },
-    {
-      "key": "bilibili_py",
-      "name": "哔哩ᵖʸ｜视频",
-      "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/bilibili.py"
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/kanke.py"
     },
     {
       "key": "bubu_py",
       "name": "布布ᵖʸ｜视频",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/bubu.py"
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/bubu.py"
     },
     {
       "key": "juxiafan_py",
       "name": "下饭ᵖʸ｜视频",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/juxiafan.py"
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/juxiafan.py"
     },
     {
       "key": "guazi_py",
       "name": "瓜子ᵖʸ｜视频",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/guazi.py"
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/guazi.py"
     },
     {
       "key": "huashu_py",
       "name": "华数ᵖʸ｜视频",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/huashu.py"
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/huashu.py"
     },
     {
       "key": "hanju_py",
       "name": "韩圈ᵖʸ｜视频",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/hanju.py"
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/hanju.py"
     },
     {
       "key": "Mdd",
@@ -452,19 +389,19 @@
       "key": "wllive_py",
       "name": "网络ᵖʸ｜Live",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/wllive.py"
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/wllive.py"
     },
     {
       "key": "bililive_py",
       "name": "哔哩ᵖʸ｜Live",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/bililive.py"
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/bililive.py"
     },
     {
       "key": "dylive_py",
       "name": "抖音ᵖʸ｜Live",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/dylive.py"
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/dylive.py"
     },
     {
       "key": "kglive",
@@ -490,19 +427,28 @@
       "key": "Acfun_py",
       "name": "杂视ᵖʸ｜天下",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/Acfun.py"
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/Acfun.py"
     },
     {
       "key": "lmmdm_py",
       "name": "路漫漫ᵖʸ｜动漫",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/lmmdm.py"
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/lmmdm.py"
+    },
+    {
+      "key": "某音短剧",
+      "name": "某音ᵖʸ｜短剧",
+      "type": 3,
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/dydj.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "hgdj_py",
       "name": "红果ᵖʸ｜短剧",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/hgdj.py"
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/hgdj.py"
     },
     {
       "key": "ShortHG",
@@ -558,7 +504,7 @@
       "key": "bddj_js",
       "name": "百度ᶜᵃᵗ｜短剧",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/bddj.js",
+      "api": "https://gitee.com/zdrnko/aa/raw/master/js/bddj.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -567,21 +513,21 @@
       "key": "kwmusic_py",
       "name": "酷我ᵖʸ｜音乐",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/kwmusic.py"
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/kwmusic.py"
     },
     {
       "key": "qtfm_js",
       "name": "蜻蜓ᶜᵃᵗ｜广播",
       "type": 3,
-      "jar": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/jar/fmjs.zip",
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/drpy2.min.js",
-      "ext": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/qtfm.js"
+      "jar": "https://gitee.com/zdrnko/aa/raw/master/jar/fmjs.zip",
+      "api": "https://gitee.com/zdrnko/aa/raw/master/js/drpy2.min.js",
+      "ext": "https://gitee.com/zdrnko/aa/raw/master/js/qtfm.js"
     },
     {
       "key": "tangdou_py",
       "name": "糖豆ᵖʸ｜舞蹈",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/tangdou.py",
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/tangdou.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
@@ -592,7 +538,7 @@
       "key": "ytbts_py",
       "name": "悦听ᵖʸ｜听书",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/ytbts.py",
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/ytbts.py",
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0
@@ -613,7 +559,7 @@
       "key": "体育聚合",
       "name": "聚合ᶜᵃᵗ｜球赛",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/体育聚合.js",
+      "api": "https://gitee.com/zdrnko/aa/raw/master/js/体育聚合.js",
       "style": {
         "type": "rect"
       },
@@ -623,7 +569,7 @@
       "key": "蜘蛛体育",
       "name": "蜘蛛ᶜᵃᵗ｜球赛",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/js/蜘蛛体育.js",
+      "api": "https://gitee.com/zdrnko/aa/raw/master/js/蜘蛛体育.js",
       "style": {
         "type": "rect"
       },
@@ -846,7 +792,7 @@
     },
     {
       "key": "juese_py",
-      "name": "绝色ᵖʸ｜🔞禁",
+      "name": "惊艳ᵖʸ｜🔞禁",
       "type": 3,
       "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/juese.py",
       "searchable": 0,
@@ -870,7 +816,7 @@
     },
     {
       "name": "港澳台授权",
-      "url": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/zb",
+      "url": "https://gitee.com/zdrnko/aa/raw/master/zb",
       "playerType": 3,
       "type": 0,
       "ua": "okhttp/3.15"
@@ -890,11 +836,6 @@
     }
   ],
   "parses": [
-    {
-      "name": "夏",
-      "type": 1,
-      "url": "https://183933.xyz/xiaye.php?url="
-    },
     {
       "name": "鸭",
       "type": 1,
@@ -929,6 +870,43 @@
       "name": "污",
       "type": 1,
       "url": "http://jiexi.fc8001.top/leZNmbHdSceTrNsR.php?url="
+    },
+    {
+      "name": "影",
+      "type": 1,
+      "url": "https://niubi.69mini.com/api/?key=a0a626df433e41f4b1e433226f11b434&url="
+    },
+    {
+      "name": "富",
+      "type": 1,
+      "url": "https://jx4k.fuyingapi.top/api/?key=f9ecd007748997c6a81a83c425e9448a&url="
+    },
+    {
+      "name": "弟",
+      "type": 1,
+      "url": "http://120.26.0.137:2022/api/?key=NbtfszbOeiNjROMqcC&url="
+    },
+    {
+      "name": "初",
+      "type": "1",
+      "url": "http://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=gKZXJs5f&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇异",
+          "iqiyi",
+          "youku",
+          "优酷",
+          "bilibili",
+          "哔哩哔哩",
+          "yk",
+          "mgtv",
+          "芒果"
+        ]
+      }
     }
   ],
   "flags": [
