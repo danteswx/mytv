@@ -51,6 +51,12 @@
              "api": "https://gitee.com/zdrnko/aa/raw/master/py/juzi.py"
         },
         {
+             "key": "yunzhenxiang_py",
+             "name": "帧享ᵖʸ｜影视",
+             "type": 3,
+             "api": "https://gitee.com/zdrnko/aa/raw/master/py/yunzhenxiang.py"
+        },
+        {
              "key": "baipiao_js",
              "name": "白鸭ᶜᵃᵗ｜解析",
              "playerType": "2",
@@ -852,6 +858,11 @@
         }
   ],
   "parses": [
+        {
+            "name": "探",
+            "type": 1,
+            "url": "http://140.210.14.201:2026/api/index?parsesId=2&appid=10000&videoUrl="
+        },
         {
             "name": "鸭",
             "type": 1,
