@@ -6,6 +6,12 @@
               "notice": "❤️马叉虫收集整理🐸支持正版人人有责❤️",
   "sites": [
         {
+             "key": "ytjh_py",
+             "name": "影聚ᵖʸ｜影视",
+             "type": 3,
+             "api": "https://gitee.com/zdrnko/aa/raw/master/py/ytjh.py"
+        },
+        {
              "key": "kanglong_cms",
              "name": "亢龙ᶜᵐˢ｜影视",
              "type": 1,
@@ -818,9 +824,16 @@
              "type": 0
         },
         {
-              "name": "港澳台授权",
+             "name": "港澳台授权",
              "url": "https://gitee.com/zdrnko/aa/raw/master/zb",
              "playerType": 3,
+             "type": 0,
+             "ua": "okhttp/3.15"
+        },
+        {
+             "name": "港澳台备用",
+             "url": "https://gh-proxy.org/github.com/807080747/zv/raw/main/lidfffgghhgififjfjjfve.txt",
+             "playerType": 2,
              "type": 0,
              "ua": "okhttp/3.15"
         },
@@ -888,6 +901,21 @@
             "name": "弟",
             "type": 1,
             "url": "http://120.26.0.137:2022/api/?key=NbtfszbOeiNjROMqcC&url="
+        },
+        {
+            "name": "影",
+            "type": 1,
+            "url": "http://gktv.cc:88/php/TMDB/jx.php?url="
+        },
+        {
+            "name": "院",
+            "type": 1,
+            "url": "http://wnbox.top:88/php/TMDB/jx.php?url="
+        },
+        {
+            "name": "藤",
+            "type": 1,
+            "url": "https://jx4k.fuyingapi.top/api/?key=f9ecd007748997c6a81a83c425e9448a&url="
         },
         {
             "name": "初",
