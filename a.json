@@ -105,6 +105,32 @@
       "api": "https://gitee.com/zdrnko/aa/raw/master/py/bilibili.py"
     },
     {
+      "key": "wpjh_py",
+      "name": "网盘ᵖʸ｜免扫",
+      "type": 3,
+      "api": "https://fastlink.cokey.xyz/f/76bPI3/wangpanMD.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "mode": "",
+        "uc_cookie": "",
+        "quark_cookie": "",
+        "夸父cookie": "bbs_sid=xxx; bbs_token=xxx",
+        "123cookie": "bbs_sid=xxx; bbs_token=xxx",
+        "fast": "1",
+        "accel": "1",
+        "accel_thread": "96"
+      }
+    },
+    {
+      "key": "移动云盘",
+      "name": "移动ᵖʸ｜免扫",
+      "type": 3,
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/ydyp.py"
+    },
+    {
       "key": "玩偶自扫",
       "name": "玩偶ʷᵖ｜自扫",
       "type": 3,
@@ -260,12 +286,6 @@
         ]
       },
       "timeout": 60
-    },
-    {
-      "key": "移动云盘",
-      "name": "移动ᵖʸ｜免扫",
-      "type": 3,
-      "api": "https://gitee.com/zdrnko/aa/raw/master/py/ydyp.py"
     },
     {
       "key": "咕噜APP",
@@ -822,7 +842,7 @@
       "key": "juese_py",
       "name": "惊艳ᵖʸ｜🔞禁",
       "type": 3,
-      "api": "https://gh-proxy.org/raw.githubusercontent.com/danteswx/mytv/tvbox/py/juese.py",
+      "api": "https://gh-proxy.org/github.com/ssm123-coder/a/raw/main/py/juese.py",
       "searchable": 0,
       "changeable": 0
     },
