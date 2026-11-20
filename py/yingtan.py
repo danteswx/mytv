@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 import base64
 import json
 import re
@@ -20,19 +19,13 @@ except ImportError:
 KEY = 'yingtan4k'
 HOST = 'http://cms.lyyytv.cn'
 CMS_KEY = 'wP5bvxoc3yv7FoBQENFZuAF0EUYr4LTy'
-
-# 解析接口（对齐 yt4k.js：fys.lyyytv.cn / parsesId=3）
-PARSE_API = 'http://4kzj.lyyytv.cn/api/index?parsesId=2&appid=10001&videoUrl='
+PARSE_API = 'http://jwh.lcytv.cn/api/index?parsesId=2&appid=10001&videoUrl='
 HEADERS = {'User-Agent': 'okhttp/4.12.0'}
-# 解析请求/回源头：对齐 JS 的 PH，避免 gzip 花屏
 PARSE_HEADERS = {'User-Agent': 'okhttp/4.12.0', 'Accept-Encoding': 'identity'}
 
-# baidu.con 前缀加密常量（对齐 yt4k.js）
 DEC_PREFIX = 'https://baidu.con/'
-# 解析重试轮数与退避基数（秒）
 PARSE_ROUNDS = 3
 PARSE_BACKOFF = 0.35
-# 同一原始地址解析结果缓存窗口（秒）
 PLAY_CACHE_TTL = 120
 
 PAGE_LIMIT = 20
@@ -114,7 +107,6 @@ def decode_base64(value):
 
 
 def decrypt_lvdou(value):
-    """对齐 JS decUrlOne：lvdou+ → 前16 key/后16 iv AES/CBC/PKCS7"""
     original = text(value)
     if not original.startswith('lvdou+'):
         return original
@@ -156,7 +148,6 @@ def is_ldmax_url(value):
 
 
 def decrypt_ldmax(value, depth=0):
-    """兼容老加密：ldmax.cooom 前缀"""
     if depth > 5:
         return ''
     url = text(value)
@@ -185,7 +176,6 @@ def decrypt_ldmax(value, depth=0):
 
 
 def find_url(value):
-    """对齐 JS findUrl：从解析响应 JSON 中挑出 url/playUrl/link/data.url"""
     if not isinstance(value, dict):
         return ''
     for key in ('url', 'playUrl', 'link'):
@@ -196,12 +186,6 @@ def find_url(value):
 
 
 def resolve_parse(body):
-    """
-    对齐 JS resolveParse：
-      1) JSON 包裹 → 取出 url
-      2) https://baidu.con/ 前缀 → 前16位 key=iv，余下 base64 密文 AES/CBC/PKCS7
-      3) 明文 URL
-    """
     body = text(body)
     if not body:
         return ''
@@ -222,7 +206,6 @@ def resolve_parse(body):
             return ''
         key = rest[:16].encode('utf-8')
         cipher_b64 = rest[16:]
-        # 优先按 base64 密文解密
         try:
             encrypted = base64.b64decode(cipher_b64, validate=False)
             cipher = AES.new(key, AES.MODE_CBC, key)
@@ -232,7 +215,6 @@ def resolve_parse(body):
                 return result
         except Exception:
             pass
-        # 兜底：密文本身是 raw bytes
         try:
             raw = cipher_b64.encode('latin-1', errors='ignore')
             if raw and len(raw) % 16 == 0:
@@ -249,7 +231,6 @@ def resolve_parse(body):
 
 
 def parse_url(raw):
-    """对齐 JS play 内部：把原始地址拼到解析基址后请求，解出真实 URL。"""
     if not raw:
         return ''
     target = PARSE_API + urllib.parse.quote(raw, safe="!'()*")
@@ -427,18 +408,15 @@ def search(key, pg):
 
 
 def play(play_id):
-    """对齐 JS play：无条件走解析接口，解出真实地址再交播放器。"""
     original = decrypt_lvdou(play_id)
     if not original:
         return {'parse': 0, 'url': '', 'header': dict(PARSE_HEADERS)}
 
-    # 兼容老加密：ldmax 前缀先本地解密
     if is_ldmax_url(original):
         decrypted = decrypt_ldmax(original)
         if decrypted:
             original = decrypted
 
-    # 解析结果缓存
     now = time.time()
     cached = _play_cache.get(original)
     if cached and cached[0] > now:
