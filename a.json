@@ -10,13 +10,23 @@
       "api": "http://110.42.66.100:12678/api.php",
       "playUrl": "json:http://110.42.66.100:5666/api/?key=c31bfd818ac47875ab4922f03834afcc&url=",
       "searchable": 1,
-      "quickSearch": 1
+      "quickSearch": 1,
+      "filterable": 0
     },
     {
       "key": "sx4k_cms",
       "name": "星影ᶜᵐˢ｜影视",
       "type": 4,
       "api": "http://8.134.205.252:39466/pz/sx4k.php/api.php/provide/vod/?ac=list"
+    },
+    {
+      "key": "mino_py",
+      "name": "米诺ᵖʸ｜影视",
+      "type": 3,
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/mino.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     },
     {
       "key": "ytjh_py",
@@ -337,6 +347,15 @@
       }
     },
     {
+      "key": "qiyiguo_cms",
+      "name": "奇异果ᶜᵐˢ｜视频",
+      "type": 0,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "changeable": 1,
+      "playurl": "json:https://www.iqiyizyjx.com/?url="
+    },
+    {
       "key": "kanke_py",
       "name": "看客ᵖʸ｜视频",
       "type": 3,
@@ -371,6 +390,12 @@
       "name": "韩圈ᵖʸ｜视频",
       "type": 3,
       "api": "https://gitee.com/zdrnko/aa/raw/master/py/hanju.py"
+    },
+    {
+      "key": "mddcloud_py",
+      "name": "埋堆堆ᵖʸ｜视频",
+      "type": 3,
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/mddcloud.py"
     },
     {
       "key": "Mdd",
@@ -432,6 +457,12 @@
       "style": {
         "type": "list"
       }
+    },
+    {
+      "key": "HDRip_py",
+      "name": "电视ᵖʸ｜Live",
+      "type": 3,
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/HDRip.py"
     },
     {
       "key": "wllive_py",
@@ -935,6 +966,11 @@
       "name": "竹",
       "type": 1,
       "url": "http://zhuyun.shanhaiguanwu.top/api/index?parsesId=1&appid=10000&videoUrl="
+    },
+    {
+      "name": "四",
+      "type": 1,
+      "url": "https://niubi.69mini.com/api?key=5826c5388ce47abc5919ef5474f075d1&url="
     },
     {
       "name": "尤",
