@@ -29,12 +29,6 @@
       "filterable": 0
     },
     {
-      "key": "ytjh_py",
-      "name": "影聚ᵖʸ｜影视",
-      "type": 3,
-      "api": "https://gitee.com/zdrnko/aa/raw/master/py/ytjh.py"
-    },
-    {
       "key": "yingtan_py",
       "name": "影探ᵖʸ｜影视",
       "type": 3,
@@ -116,7 +110,7 @@
       "filterable": 1,
       "changeable": 1,
       "ext": {
-        "mode": "uc,quark",
+        "mode": "",
         "uc_cookie": "",
         "quark_cookie": "",
         "夸父cookie": "bbs_sid=xxx; bbs_token=xxx",
@@ -449,12 +443,6 @@
       "style": {
         "type": "list"
       }
-    },
-    {
-      "key": "HDRip_py",
-      "name": "电视ᵖʸ｜Live",
-      "type": 3,
-      "api": "https://gitee.com/zdrnko/aa/raw/master/py/HDRip.py"
     },
     {
       "key": "wllive_py",
@@ -914,11 +902,6 @@
     }
   ],
   "parses": [
-    {
-      "name": "凯",
-      "type": 1,
-      "url": "http://120.26.0.137:2022/api/?key=NbtfszbOeiNjROMqcC&url="
-    },
     {
       "name": "胜",
       "type": 1,
