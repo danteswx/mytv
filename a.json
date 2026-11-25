@@ -131,6 +131,12 @@
       "api": "https://gitee.com/zdrnko/aa/raw/master/py/hgdj.py"
     },
     {
+      "key": "hgdj备用_py",
+      "name": "红果备用",
+      "type": 3,
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/hgdj备用.py"
+    },
+    {
       "key": "kwmusic_py",
       "name": "酷我音乐",
       "type": 3,
