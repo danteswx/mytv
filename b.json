@@ -349,16 +349,16 @@
       "api": "https://gitee.com/zdrnko/aa/raw/master/py/kanke.py"
     },
     {
+      "key": "dyls_py",
+      "name": "猎手ᵖʸ｜视频",
+      "type": 3,
+      "api": "https://gitee.com/zdrnko/aa/raw/master/py/dyls.py"
+    },
+    {
       "key": "bubu_py",
       "name": "布布ᵖʸ｜视频",
       "type": 3,
       "api": "https://gitee.com/zdrnko/aa/raw/master/py/bubu.py"
-    },
-    {
-      "key": "juxiafan_py",
-      "name": "下饭ᵖʸ｜视频",
-      "type": 3,
-      "api": "https://gitee.com/zdrnko/aa/raw/master/py/juxiafan.py"
     },
     {
       "key": "guazi_py",
@@ -922,6 +922,11 @@
       "name": "牛",
       "type": 1,
       "url": "https://nm.4688888.xyz/niuma.php?key=dfl&url="
+    },
+    {
+      "name": "鸭",
+      "type": 1,
+      "url": "https://jx4k.fuyingapi.top/api/?key=f9ecd007748997c6a81a83c425e9448a&url="
     },
     {
       "name": "分",

@@ -46,6 +46,15 @@
              "api": "http://8.134.205.252:39466/pz/sx4k.php/api.php/provide/vod/?ac=list"
         },
         {
+             "key": "ddcj_cms",
+             "name": "开心果视频",
+             "type": 4,
+             "api": "http://116.62.133.86:56688/%E9%87%87%E9%9B%86/cai.php?filter=true",
+             "searchable": 1,
+             "quickSearch": 1,
+             "filterable": 1
+        },
+        {
              "key": "baipiao_js",
              "name": "白嫖鸭聚合",
              "playerType": "2",
@@ -85,6 +94,12 @@
              "name": "咕噜视频",
              "type": 3,
              "api": "https://gitee.com/zdrnko/aa/raw/master/py/gulu.py"
+        },
+        {
+             "key": "dyls_py",
+             "name": "猎手视频",
+             "type": 3,
+             "api": "https://gitee.com/zdrnko/aa/raw/master/py/dyls.py"
         },
         {
              "key": "yunzhenxiang_py",
@@ -217,6 +232,11 @@
             "name": "备用",
             "type": 1,
             "url": "http://jiexi.fc8001.top/leZNmbHdSceTrNsR.php?url="
+        },
+        {
+            "name": "白嫖鸭",
+            "type": 1,
+            "url": "https://jx4k.fuyingapi.top/api/?key=f9ecd007748997c6a81a83c425e9448a&url="
         }
   ]
 }
