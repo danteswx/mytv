@@ -66,7 +66,7 @@ jobs:
           # 使用 /tmp 中的脚本解密(脚本不进入 tvbox 分支)
           # 解密 a -> a.json / b -> b.json (AES-CBC + hex 编码的 TVBox 配置)
           python /tmp/tvbox.py a a.json dec
-          #python /tmp/tvbox.py b b.json dec
+          python /tmp/tvbox.py b b.json dec
           # 验证解密结果为有效 JSON
           python -c "
           import json
