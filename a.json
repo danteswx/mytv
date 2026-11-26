@@ -10,13 +10,13 @@
       "searchable": 1,
       "ext": {
         "apiUrls": [
-          "https://danmu.iyo.us.ci/theft-dastardly-prognosis-hula-agenda2-dropkick|公益源1",
-          "https://logo.saodu.work:8888/87654321|公益源2",
-          "https://dm.ljiaovm.com/luosen|公益源3",
-          "https://logdanmu.kongcheng666.dpdns.org/a123456|公益源4",
-          "https://api.dandanplay.net|公益源5",
-          "https://danmu.lily.lat/lilyemby|公益源6",
-          "https://danmu.longemby.com/lilyemby|公益源7"
+          "https://danmu.iyo.us.ci/theft-dastardly-prognosis-hula-agenda2-dropkick|源1",
+          "https://logo.saodu.work:8888/87654321|源2",
+          "https://dm.ljiaovm.com/luosen|源3",
+          "https://logdanmu.kongcheng666.dpdns.org/a123456|源4",
+          "https://api.dandanplay.net|源5",
+          "https://danmu.lily.lat/lilyemby|源6",
+          "https://danmu.longemby.com/lilyemby|源7"
         ],
         "titleMappingsUrl": "https://gh-proxy.org/raw.githubusercontent.com/goodcommunication/mydm/main/yins.json",
         "filter": "./lib/douban.json"
@@ -229,12 +229,7 @@
     {
       "name": "备用",
       "type": 1,
-      "url": "http://jiexi.fc8001.top/leZNmbHdSceTrNsR.php?url="
-    },
-    {
-      "name": "白嫖鸭",
-      "type": 1,
-      "url": "https://jx4k.fuyingapi.top/api/?key=f9ecd007748997c6a81a83c425e9448a&url="
+      "url": "http://120.26.0.137:2022/api/?key=e6yF9hBqVAtIWZvGWu&url="
     }
   ]
 }
